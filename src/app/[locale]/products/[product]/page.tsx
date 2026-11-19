@@ -61,6 +61,17 @@ const productData: Record<
     status: "Alpha",
     repo: "https://github.com/stevengiki201/Gbrain-neural-system",
   },
+  shulebomba: {
+    name: "ShuleBomba",
+    tagline: "Class management built for teachers",
+    description:
+      "Offline-first Android class manager for primary and secondary teachers. Manage classes, learners, attendance, test scores and printable reports in one place.",
+    icon: "📚",
+    platforms: ["Android", "Web (limited)"],
+    status: "Released v1.0.3",
+    playStore:
+      "https://play.google.com/store/apps/details?id=app.ShuleBomba.com&hl=en",
+  },
 };
 
 export async function generateMetadata({

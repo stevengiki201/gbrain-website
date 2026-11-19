@@ -24,6 +24,32 @@ test("products page lists GBrain products", async ({ page }) => {
   await expect(
     page.getByRole("heading", { name: "GBrain Neural System" }),
   ).toBeVisible();
+  await expect(page.getByRole("heading", { name: "ShuleBomba" })).toBeVisible();
+});
+
+test("ShuleBomba product links to Google Play and documentation", async ({
+  page,
+}) => {
+  await page.goto("/products/shulebomba");
+
+  await expect(page.getByRole("heading", { name: "ShuleBomba" })).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: /get on google play/i }).first(),
+  ).toHaveAttribute(
+    "href",
+    "https://play.google.com/store/apps/details?id=app.ShuleBomba.com&hl=en",
+  );
+
+  await page.goto("/docs/shulebomba/getting-started");
+  await expect(
+    page.getByRole("heading", { name: /getting started/i }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("link", { name: /download from google play/i }),
+  ).toHaveAttribute(
+    "href",
+    "https://play.google.com/store/apps/details?id=app.ShuleBomba.com&hl=en",
+  );
 });
 
 test("documentation index links to product guides", async ({ page }) => {
@@ -33,4 +59,5 @@ test("documentation index links to product guides", async ({ page }) => {
   await expect(
     page.getByRole("heading", { name: "GBrain SMS + AudioLink" }),
   ).toBeVisible();
+  await expect(page.getByRole("heading", { name: "ShuleBomba" })).toBeVisible();
 });

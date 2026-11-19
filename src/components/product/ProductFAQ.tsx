@@ -98,6 +98,33 @@ const faqData: Record<string, Array<{ question: string; answer: string }>> = {
         "The Tauri config is scaffolded but not compiled (needs Rust toolchain). The web dashboard at localhost:5173 is the primary interface.",
     },
   ],
+  shulebomba: [
+    {
+      question: "Who is ShuleBomba for?",
+      answer:
+        "It is built for primary and secondary school teachers who need to manage several classes, daily attendance and test scores without paperwork.",
+    },
+    {
+      question: "Does ShuleBomba work offline?",
+      answer:
+        "Yes. Daily tasks such as adding learners, taking roll call, recording marks and reviewing saved records work without internet. You need a connection to install or update the app and for upload, viewing or sync workflows.",
+    },
+    {
+      question: "Can I edit attendance after saving it?",
+      answer:
+        "Saved roll calls are locked in the app. Check each learner's status carefully before you tap Save Attendance.",
+    },
+    {
+      question: "Can one teacher manage more than one class?",
+      answer:
+        "Yes. Each class keeps its own learners, subjects, tests and attendance records, and you can switch between them from Home.",
+    },
+    {
+      question: "Where do I download it?",
+      answer:
+        "Get the official Android release on Google Play at https://play.google.com/store/apps/details?id=app.ShuleBomba.com&hl=en.",
+    },
+  ],
 };
 
 export function ProductFAQ({ product }: ProductFAQProps) {

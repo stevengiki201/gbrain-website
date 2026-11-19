@@ -91,6 +91,27 @@ const changelogData: Record<
       ],
     },
   ],
+  shulebomba: [
+    {
+      version: "1.0.3",
+      date: "2026-11-19",
+      changes: [
+        "Multi-class management with subjects and learner rosters",
+        "Present, absent and sick roll call with locked saved records",
+        "Saved roll call browser with date and count listings",
+        "Subject-based test creation, editing and score tables",
+        "PDF, Excel and Word attendance exports for selected date ranges",
+        "Teacher profile, themes, share, rate and account controls",
+        "Offline-first daily workflow with Google Play distribution",
+      ],
+    },
+  ],
+};
+
+const releaseRepos: Record<string, string> = {
+  sms: "https://github.com/stevengiki201/gbrain-sms",
+  neural: "https://github.com/stevengiki201/Gbrain-neural-system",
+  shulebomba: "https://github.com/stevengiki201/school-app",
 };
 
 export function ProductChangelog({ product }: ProductChangelogProps) {
@@ -115,16 +136,18 @@ export function ProductChangelog({ product }: ProductChangelogProps) {
               {t("subtitle")}
             </p>
           </div>
-          <Button variant="ghost" asChild>
-            <a
-              href={`https://github.com/gbrain-tech/${product === "media" ? "gbrain-media" : product === "sms" ? "gbrain-sms" : product === "phonelink" ? "phonelink" : "gbrain-neural"}/releases`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Github className="mr-2 h-4 w-4" aria-hidden="true" />
-              {t("viewOnGitHub")}
-            </a>
-          </Button>
+          {releaseRepos[product] && (
+            <Button variant="ghost" asChild>
+              <a
+                href={`${releaseRepos[product]}/releases`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="mr-2 h-4 w-4" aria-hidden="true" />
+                {t("viewOnGitHub")}
+              </a>
+            </Button>
+          )}
         </header>
         <div className="space-y-6">
           {releases.map((release, index) => (

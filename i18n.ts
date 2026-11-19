@@ -20,6 +20,10 @@ export const routing = {
       sw: "/bidhaa/phonelink",
     },
     "/products/neural": { en: "/products/neural", sw: "/bidhaa/neural" },
+    "/products/shulebomba": {
+      en: "/products/shulebomba",
+      sw: "/bidhaa/shulebomba",
+    },
     "/solutions": { en: "/solutions", sw: "/suluhisho" },
     "/docs": { en: "/docs", sw: "/docs" },
     "/docs/[product]": { en: "/docs/[product]", sw: "/docs/[product]" },

@@ -1,4 +1,4 @@
-import { ExternalLink, FileText, Code, BookOpen } from "lucide-react";
+import { ExternalLink, FileText, Code, BookOpen, Check } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { useTranslations } from "next-intl";
@@ -125,6 +125,56 @@ const docsLinks: Record<
       href: "/docs/neural/development",
       description: "Testing, contributing",
       icon: <Code className="h-5 w-5" />,
+    },
+  ],
+  shulebomba: [
+    {
+      title: "Overview",
+      href: "/docs/shulebomba/overview",
+      description: "What it is and who it serves",
+      icon: <BookOpen className="h-5 w-5" />,
+    },
+    {
+      title: "Getting Started",
+      href: "/docs/shulebomba/getting-started",
+      description: "Play Store install and first class",
+      icon: <BookOpen className="h-5 w-5" />,
+    },
+    {
+      title: "How to Use",
+      href: "/docs/shulebomba/how-to-use",
+      description: "Daily teacher workflow",
+      icon: <ExternalLink className="h-5 w-5" />,
+    },
+    {
+      title: "Why Choose",
+      href: "/docs/shulebomba/why-choose",
+      description: "Benefits for teachers and schools",
+      icon: <Check className="h-5 w-5" />,
+    },
+    {
+      title: "Attendance",
+      href: "/docs/shulebomba/attendance",
+      description: "Roll call and saved records",
+      icon: <FileText className="h-5 w-5" />,
+    },
+    {
+      title: "Tests & Scores",
+      href: "/docs/shulebomba/tests-and-scores",
+      description: "Subjects, marks and editing",
+      icon: <Code className="h-5 w-5" />,
+    },
+    {
+      title: "Reports",
+      href: "/docs/shulebomba/reports",
+      description: "PDF, Excel and Word exports",
+      icon: <FileText className="h-5 w-5" />,
+    },
+    {
+      title: "Privacy & Security",
+      href: "/docs/shulebomba/privacy-security",
+      description: "Local data and saved roll calls",
+      icon: <ExternalLink className="h-5 w-5" />,
     },
   ],
 };

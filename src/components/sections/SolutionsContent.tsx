@@ -8,7 +8,7 @@ const solutions: Array<{ key: string; href: StaticPathname }> = [
   { key: "personal", href: "/products/media" },
   { key: "business", href: "/contact" },
   { key: "developer", href: "/products/neural" },
-  { key: "education", href: "/contact" },
+  { key: "education", href: "/products/shulebomba" },
   { key: "automation", href: "/products/neural" },
   { key: "media", href: "/products/media" },
 ];

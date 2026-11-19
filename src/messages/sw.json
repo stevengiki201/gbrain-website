@@ -23,7 +23,8 @@
         "media": "GBrain Media Player",
         "sms": "GBrain SMS + AudioLink",
         "phonelink": "PhoneLink",
-        "neural": "GBrain Neural"
+        "neural": "GBrain Neural",
+        "shulebomba": "ShuleBomba"
       },
       "company": {
         "title": "Shirika",
@@ -54,14 +55,14 @@
   "home": {
     "meta": {
       "title": "Nyumbani",
-      "description": "GBrain Technologies inajenga programu za praktiki zilizoendeshwa na AI ya kidevaisi. Bidhaa: GBrain Media Player, GBrain SMS + AudioLink, PhoneLink, GBrain Neural System.",
+      "description": "GBrain Technologies inajenga programu za praktiki zilizoendeshwa na AI ya kidevaisi. Bidhaa: GBrain Media Player, GBrain SMS + AudioLink, PhoneLink, GBrain Neural System na ShuleBomba.",
       "ogTitle": "GBrain Technologies — Programu za Practiki, Zinazoweza na AI ya Kidevaisi",
       "ogDescription": "Kujenga programu za praktiki zinazoweza na AI ya kidevaisi. Kwanza kidevaisi, faragha kwanza, inafanya kazi bila mtandao."
     },
     "hero": {
       "badge": "Mpya: GBrain Neural System v0.1 — Vipindi 1-12 vimekamalika",
       "headline": "Programu za praktiki, zinazoweza na AI ya kidevaisi",
-      "subheadline": "Zilizojengwa Tanzania, kwa Afrika na ulimwengu. Kwanza kidevaisi, faragha kwanza, inafanya kazi bila mtandao. Bidhaa nne, lengo moja: programu inayeheshimu data yako na inayofanya kazi kila mahali.",
+      "subheadline": "Zilizojengwa Tanzania, kwa Afrika na ulimwengu. Kwanza kidevaisi, faragha kwanza, inafanya kazi bila mtandao. Bidhaa tano, lengo moja: programu inayeheshimu data yako na inayofanya kazi kila mahali.",
       "cta": {
         "primary": "Chunguza Bidhaa",
         "secondary": "Wasiliana Nasi"
@@ -97,13 +98,14 @@
     },
     "products": {
       "title": "Bidhaa Zetu",
-      "subtitle": "Zana nne maalum, zilizounganishwa na falsafa moja: kwanza kidevaisi, kuheshimu faragha, kufanya kazi bila mtandao.",
+      "subtitle": "Zana tano maalum, zilizounganishwa na falsafa moja: kwanza kidevaisi, kuheshimu faragha, kufanya kazi bila mtandao.",
       "viewDetails": "Tazama maelezo",
       "descriptions": {
         "media": "Kicheza muziki na video kwanza-nje-ya-mtandao kwa Android. Skana midia ya eneo, unda orodha za kucheza na ucheza bila wingu.",
         "sms": "Msaidizi wa SMS anayetumia AI ya Ollama ya eneo na daraja la sauti linalotumia Whisper na Piper.",
         "phonelink": "Usimamizi wa simu ya Android bila waya kutoka kompyuta ya Linux. Akisi skrini, hamisha faili na udhibiti vifaa kwenye mtandao wako.",
-        "neural": "Jukwaa la utekelezaji wa AI lenye wakala wa MrX, injini za kazi, udhibiti wa vifaa na mifumo ndogo iliyounganishwa."
+        "neural": "Jukwaa la utekelezaji wa AI lenye wakala wa MrX, injini za kazi, udhibiti wa vifaa na mifumo ndogo iliyounganishwa.",
+        "shulebomba": "Usimamizi wa darasa kwanza-nje-ya-mtandao kwa walimu. Simamia madarasa mengi, mahudhurio, alama za mitihani na ripoti zinazoweza kuchapishwa kwenye programu moja."
       }
     },
     "why": {
@@ -236,7 +238,7 @@
     "hero": {
       "badge": "Imejengwa Tanzania, kwa Afrika na ulimwengu",
       "title": "Kuhusu GBrain Technologies",
-      "subtitle": "Tunanjenga programu za praktiki zinazoweza na AI ya kidevaisi. Kwanza kidevaisi, faragha kwanza, inafanya kazi oflayini. Bidhaa nne, lengo moja.",
+      "subtitle": "Tunanjenga programu za praktiki zinazoweza na AI ya kidevaisi. Kwanza kidevaisi, faragha kwanza, inafanya kazi oflayini. Bidhaa tano, lengo moja.",
       "team": "Wanachama 4 wa timu",
       "awards": "Tuzo 3",
       "rating": "Rejta 4.8★"
@@ -376,7 +378,7 @@
     },
     "hero": {
       "title": "Suluhisho kulingana na Matumizi",
-      "subtitle": "Bidhaa nne, matumizi yasiyo na kikomo. Pata chombo sahihi kwa mahitaji yako."
+      "subtitle": "Bidhaa tano, matumizi yasiyo na kikomo. Pata chombo sahihi kwa mahitaji yako."
     },
     "productsIncluded": "Bidhaa zilizojumuishwa",
     "personal": {
@@ -414,14 +416,14 @@
     },
     "education": {
       "title": "Elimu na Utafiti",
-      "desc": "Media oflayini kwa madarasa, msaidizi wa AI kwa kujifunza, vifaa vya maabara.",
+      "desc": "Mahudhurio ya darasa, rekodi za wanafunzi, media oflayini na AI ya ndani kwa kujifunza.",
       "features": [
+        "Usimamizi wa madarasa wa ShuleBomba",
         "Inafanya kazi bila intaneti",
         "AI ya ndani kwa faragha",
-        "Udhibiti wa vifaa vingi",
         "Utekelezaji wa bei nafuu"
       ],
-      "cta": "Jifunze kwa elimu"
+      "cta": "Chunguza zana za elimu"
     },
     "automation": {
       "title": "Utekelezaji na IoT",
@@ -688,6 +690,7 @@
     "onThisPage": "Kwenye ukurasa huu",
     "overview": "Muhtasari",
     "commands": "Amri",
+    "links": "Viungo muhimu",
     "relatedProduct": "Bidhaa husika",
     "backToDocs": "Rudi kwenye dokumentasi",
     "notFound": "Mwongozo huu haupo."

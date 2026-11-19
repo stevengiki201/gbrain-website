@@ -178,6 +178,52 @@ const featuresData: Record<
       ],
     },
   ],
+  shulebomba: [
+    {
+      title: "Class Management",
+      description: "Everything for a teacher's day",
+      items: [
+        "Manage multiple classes from one dashboard",
+        "Add, edit and delete classes",
+        "Add learners with registration number and sex",
+        "Create and rename subjects per class",
+        "Class roster with quick edit and delete actions",
+      ],
+    },
+    {
+      title: "Fast Attendance",
+      description: "Roll call without paperwork",
+      items: [
+        "Mark Present, Absent or Sick for each learner",
+        "Date picker for daily or back-dated records",
+        "Save confirmation protects finished roll calls",
+        "Saved roll calls are locked from further editing",
+        "Browse saved dates with present/absent/sick counts",
+      ],
+    },
+    {
+      title: "Tests & Scores",
+      description: "Track performance by subject",
+      items: [
+        "Create any number of tests per class",
+        "Choose a subject before saving marks",
+        "Enter marks from the class screen",
+        "Filter the score table by subject",
+        "Edit an existing test instead of duplicating it",
+      ],
+    },
+    {
+      title: "Reports & Settings",
+      description: "Useful records and a personal workspace",
+      items: [
+        "Export attendance to PDF, Excel or Word",
+        "Choose a class and a custom date range",
+        "Profile with username, school name and avatar",
+        "Light, dark and system themes",
+        "Share and rate the app from Settings",
+      ],
+    },
+  ],
 };
 
 export function ProductFeatures({ product }: ProductFeaturesProps) {

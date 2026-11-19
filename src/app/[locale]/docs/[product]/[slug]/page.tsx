@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Link } from "@/i18n/navigation";
 import {
@@ -70,6 +70,26 @@ export default async function DocsArticlePage({ params }: Props) {
               <pre className="overflow-x-auto rounded-xl border bg-muted p-4 font-mono text-sm">
                 {doc.commands[locale].join("\n")}
               </pre>
+            </>
+          )}
+          {doc.links && (
+            <>
+              <h2 id="links">{t("links")}</h2>
+              <ul>
+                {doc.links.map((link) => (
+                  <li key={link.url}>
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5"
+                    >
+                      {link.label[locale]}
+                      <ExternalLink className="h-4 w-4" aria-hidden="true" />
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </>
           )}
         </div>

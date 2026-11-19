@@ -23,7 +23,8 @@
         "media": "GBrain Media Player",
         "sms": "GBrain SMS + AudioLink",
         "phonelink": "PhoneLink",
-        "neural": "GBrain Neural"
+        "neural": "GBrain Neural",
+        "shulebomba": "ShuleBomba"
       },
       "company": {
         "title": "Company",
@@ -54,14 +55,14 @@
   "home": {
     "meta": {
       "title": "Home",
-      "description": "GBrain Technologies builds practical software powered by on-device AI. Products: GBrain Media Player, GBrain SMS + AudioLink, PhoneLink, GBrain Neural System.",
+      "description": "GBrain Technologies builds practical software powered by on-device AI. Products: GBrain Media Player, GBrain SMS + AudioLink, PhoneLink, GBrain Neural System and ShuleBomba.",
       "ogTitle": "GBrain Technologies — Practical Software, Powered by On-Device AI",
       "ogDescription": "Building practical software powered by on-device AI. Local-first, privacy-first, works offline."
     },
     "hero": {
       "badge": "New: GBrain Neural System v0.1 — Phases 1-12 Complete",
       "headline": "Practical software, powered by on-device AI",
-      "subheadline": "Built in Tanzania, for Africa and the world. Local-first, privacy-first, works offline. Four products, one mission: software that respects your data and works everywhere.",
+      "subheadline": "Built in Tanzania, for Africa and the world. Local-first, privacy-first, works offline. Five products, one mission: software that respects your data and works everywhere.",
       "cta": {
         "primary": "Explore Products",
         "secondary": "Get in Touch"
@@ -97,13 +98,14 @@
     },
     "products": {
       "title": "Our Products",
-      "subtitle": "Four specialized tools, unified by a philosophy: local-first, privacy-respecting, works offline.",
+      "subtitle": "Five specialized tools, unified by a philosophy: local-first, privacy-respecting, works offline.",
       "viewDetails": "View details",
       "descriptions": {
         "media": "Offline-first music and video player for Android. Scan local media, build playlists and enjoy persistent playback without the cloud.",
         "sms": "AI-powered SMS assistant with a local Ollama brain and an acoustic voice bridge powered by Whisper and Piper.",
         "phonelink": "Wireless Android remote management from a Linux desktop. Mirror the screen, transfer files and control devices on your LAN.",
-        "neural": "Modular AI execution platform with the MrX coding agent, task engines, device automation and integrated subsystems."
+        "neural": "Modular AI execution platform with the MrX coding agent, task engines, device automation and integrated subsystems.",
+        "shulebomba": "Offline-first class management for teachers. Track multiple classes, attendance, test scores and printable reports in one app."
       }
     },
     "why": {
@@ -236,7 +238,7 @@
     "hero": {
       "badge": "Built in Tanzania, for Africa and the world",
       "title": "About GBrain Technologies",
-      "subtitle": "We build practical software powered by on-device AI. Local-first, privacy-first, works offline. Four products, one mission.",
+      "subtitle": "We build practical software powered by on-device AI. Local-first, privacy-first, works offline. Five products, one mission.",
       "team": "4 team members",
       "awards": "3 awards",
       "rating": "4.8★ rating"
@@ -376,7 +378,7 @@
     },
     "hero": {
       "title": "Solutions by Use Case",
-      "subtitle": "Four products, infinite applications. Find the right tool for your needs."
+      "subtitle": "Five products, infinite applications. Find the right tool for your needs."
     },
     "productsIncluded": "Products included",
     "personal": {
@@ -414,14 +416,14 @@
     },
     "education": {
       "title": "Education & Research",
-      "desc": "Offline media for classrooms, AI assistants for learning, device labs.",
+      "desc": "Class attendance, learner records, offline media and local AI for learning.",
       "features": [
+        "ShuleBomba class management",
         "Works without internet",
         "Local AI for privacy",
-        "Multi-device management",
         "Cost-effective deployment"
       ],
-      "cta": "Learn for education"
+      "cta": "Explore education tools"
     },
     "automation": {
       "title": "Automation & IoT",
@@ -688,6 +690,7 @@
     "onThisPage": "On this page",
     "overview": "Overview",
     "commands": "Commands",
+    "links": "Useful links",
     "relatedProduct": "Related product",
     "backToDocs": "Back to documentation",
     "notFound": "This guide does not exist."

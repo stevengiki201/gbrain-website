@@ -41,6 +41,13 @@ export function ProductDownload({ product, data }: ProductDownloadProps) {
       "Ollama",
       "Rust toolchain (for Tauri desktop)",
     ],
+    shulebomba: [
+      "Android phone with Google Play access",
+      "Web browser for the limited web build",
+      "School name and teacher profile",
+      "Class list and learner registration details",
+      "Internet only for installation, updates and sync",
+    ],
   };
 
   const reqs = requirements[product] || [];

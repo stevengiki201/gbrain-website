@@ -3,6 +3,7 @@ import {
   MessageSquare,
   Smartphone,
   Brain,
+  BookOpen,
   ArrowRight,
   Check,
 } from "lucide-react";
@@ -101,13 +102,32 @@ const products: Product[] = [
     platform: ["Linux", "Web", "Desktop (Tauri)"],
     status: "alpha",
   },
+  {
+    id: "shulebomba",
+    name: "ShuleBomba",
+    description:
+      "Offline-first class management for teachers. Track attendance, test scores and reports across multiple classes.",
+    icon: <BookOpen className="h-6 w-6" />,
+    href: "/products/shulebomba",
+    tag: "Released v1.0.3",
+    tagColor: "bg-amber-500/20 text-amber-500",
+    features: [
+      "Multi-class management",
+      "Quick roll call",
+      "Test scores by subject",
+      "PDF, Excel & Word reports",
+      "Offline-first",
+    ],
+    platform: ["Android", "Web (limited)"],
+    status: "released",
+  },
 ];
 
 export function ProductGrid() {
   const t = useTranslations("home.products");
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
       {products.map((product) => (
         <article key={product.id} className="group">
           <Link href={product.href} className="block">
@@ -123,6 +143,8 @@ export function ProductGrid() {
                         "bg-orange-500/10 text-orange-500",
                       product.id === "neural" &&
                         "bg-purple-500/10 text-purple-500",
+                      product.id === "shulebomba" &&
+                        "bg-amber-500/10 text-amber-500",
                     )}
                   >
                     {product.icon}

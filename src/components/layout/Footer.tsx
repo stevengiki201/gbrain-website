@@ -11,6 +11,7 @@ const footerLinks: Record<
     { href: "/products/sms", labelKey: "footer.products.sms" },
     { href: "/products/phonelink", labelKey: "footer.products.phonelink" },
     { href: "/products/neural", labelKey: "footer.products.neural" },
+    { href: "/products/shulebomba", labelKey: "footer.products.shulebomba" },
   ],
   company: [
     { href: "/about", labelKey: "footer.company.about" },
