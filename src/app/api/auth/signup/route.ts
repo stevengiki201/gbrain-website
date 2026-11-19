@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { z } from "zod";
 import { attachSession, createSessionToken, hashPassword, publicUser } from "@/lib/auth";
+import { roleForEmail } from "@/lib/roles";
 import { mutateStore, newId } from "@/lib/server-store";
 
 export const runtime = "nodejs";
@@ -27,6 +28,7 @@ export async function POST(request: NextRequest) {
       name,
       passwordHash: hashPassword(password),
       createdAt: new Date().toISOString(),
+      role: roleForEmail(email),
     };
     data.users[user.id] = user;
     data.messages[user.id] = [];

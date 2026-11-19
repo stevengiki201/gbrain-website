@@ -1,6 +1,7 @@
 import { randomUUID } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import path from "node:path";
+import { roleForEmail, type UserRole } from "./roles";
 
 export interface UserRecord {
   id: string;
@@ -8,6 +9,7 @@ export interface UserRecord {
   name: string;
   passwordHash: string;
   createdAt: string;
+  role: UserRole;
 }
 
 export interface DeviceRecord {
@@ -20,7 +22,19 @@ export interface DeviceRecord {
   lastSeen: string;
   pairingCode: string | null;
   pairingCodeExpiresAt: string | null;
+  hosted: boolean;
   createdAt: string;
+}
+
+export interface EnrollmentRecord {
+  id: string;
+  tokenHash: string;
+  userId: string;
+  deviceId: string;
+  status: "pending" | "used" | "revoked";
+  createdAt: string;
+  expiresAt: string;
+  usedAt: string | null;
 }
 
 export interface CommandRecord {
@@ -57,6 +71,7 @@ export interface AuditRecord {
 export interface StoreData {
   users: Record<string, UserRecord>;
   devices: Record<string, DeviceRecord>;
+  enrollments: Record<string, EnrollmentRecord>;
   commands: Record<string, CommandRecord>;
   messages: Record<string, SmsCacheRecord[]>;
   audits: AuditRecord[];
@@ -67,14 +82,21 @@ const storePath = path.join(dataDir, "gbrain-web.json");
 let writeQueue: Promise<unknown> = Promise.resolve();
 
 function emptyStore(): StoreData {
-  return { users: {}, devices: {}, commands: {}, messages: {}, audits: [] };
+  return { users: {}, devices: {}, enrollments: {}, commands: {}, messages: {}, audits: [] };
 }
 
 function readStore(): StoreData {
   if (!existsSync(storePath)) return emptyStore();
   try {
     const parsed = JSON.parse(readFileSync(storePath, "utf8")) as Partial<StoreData>;
-    return { ...emptyStore(), ...parsed };
+    const store = { ...emptyStore(), ...parsed };
+    for (const user of Object.values(store.users)) {
+      user.role = user.role || roleForEmail(user.email);
+    }
+    for (const device of Object.values(store.devices)) {
+      device.hosted = Boolean(device.hosted);
+    }
+    return store;
   } catch {
     return emptyStore();
   }

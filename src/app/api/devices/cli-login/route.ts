@@ -36,6 +36,7 @@ export async function POST(request: NextRequest) {
       lastSeen: now,
       pairingCode: null,
       pairingCodeExpiresAt: null,
+      hosted: false,
       createdAt: now,
     };
     data.devices[device.id] = device;

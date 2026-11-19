@@ -1,6 +1,7 @@
 import { createHash, createHmac, randomBytes, scryptSync, timingSafeEqual } from "node:crypto";
 import { cookies } from "next/headers";
 import type { NextRequest, NextResponse } from "next/server";
+import { isConfirmedRole } from "./roles";
 import { getStore, type DeviceRecord, type UserRecord } from "./server-store";
 
 const SESSION_COOKIE = "gbrain_session";
@@ -19,6 +20,7 @@ export interface PublicUser {
   id: string;
   email: string;
   name: string;
+  role: UserRecord["role"];
 }
 
 interface SessionPayload {
@@ -75,7 +77,24 @@ function decodeSessionToken(token: string | undefined): SessionPayload | null {
 }
 
 export function publicUser(user: UserRecord): PublicUser {
-  return { id: user.id, email: user.email, name: user.name };
+  return { id: user.id, email: user.email, name: user.name, role: user.role };
+}
+
+export function isConfirmedUser(user: PublicUser | UserRecord | null): boolean {
+  return Boolean(user && isConfirmedRole(user.role));
+}
+
+export function hasServiceToken(request: NextRequest): boolean {
+  const configured = process.env.GBRAIN_SERVICE_TOKEN;
+  const supplied = request.headers.get("x-service-token");
+  if (!configured || !supplied) return false;
+  const expected = Buffer.from(configured);
+  const actual = Buffer.from(supplied);
+  return actual.length === expected.length && timingSafeEqual(actual, expected);
+}
+
+export function serviceTokenConfigured(): boolean {
+  return Boolean(process.env.GBRAIN_SERVICE_TOKEN);
 }
 
 function userFromToken(token: string | undefined): UserRecord | null {

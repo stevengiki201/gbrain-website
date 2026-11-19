@@ -1,7 +1,9 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
+import QRCode from "qrcode";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/Card";
 import { Input } from "@/components/ui/Input";
@@ -30,6 +32,7 @@ interface User {
   id: string;
   email: string;
   name: string;
+  role: "user" | "confirmed" | "admin";
 }
 
 export function SmsDashboard({ user }: { user: User }) {
@@ -43,6 +46,9 @@ export function SmsDashboard({ user }: { user: User }) {
   const [notice, setNotice] = useState("");
   const [loading, setLoading] = useState(true);
   const [sending, setSending] = useState(false);
+  const [enrolling, setEnrolling] = useState(false);
+  const [qrImage, setQrImage] = useState("");
+  const [enrollmentExpiresAt, setEnrollmentExpiresAt] = useState("");
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -73,6 +79,33 @@ export function SmsDashboard({ user }: { user: User }) {
     await fetch("/api/auth/logout", { method: "POST" });
     router.push("/dashboard/sms/login");
     router.refresh();
+  }
+
+  async function createEnrollment() {
+    setEnrolling(true);
+    setError("");
+    setNotice("");
+    setQrImage("");
+    try {
+      const response = await fetch("/api/audiolink/enrollments", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ deviceName: `Hosted AudioLink — ${user.name}` }),
+      });
+      const data = (await response.json()) as {
+        error?: string;
+        deepLink?: string;
+        expiresAt?: string;
+      };
+      if (!response.ok || !data.deepLink) throw new Error(data.error || "Unable to create QR code.");
+      setQrImage(await QRCode.toDataURL(data.deepLink, { width: 256, margin: 2 }));
+      setEnrollmentExpiresAt(data.expiresAt || "");
+      setNotice("Scan this QR code with the AudioLink app to register the hosted service.");
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : "Unable to create QR code.");
+    } finally {
+      setEnrolling(false);
+    }
   }
 
   async function sendSms(event: React.FormEvent<HTMLFormElement>) {
@@ -139,6 +172,37 @@ export function SmsDashboard({ user }: { user: User }) {
 
       {error && <p className="rounded-xl border border-destructive/40 bg-destructive/10 p-4 text-sm text-destructive">{error}</p>}
       {notice && <p className="rounded-xl border border-primary/30 bg-primary/10 p-4 text-sm text-primary">{notice}</p>}
+
+      <Card>
+        <CardHeader>
+          <CardTitle>Hosted AudioLink</CardTitle>
+          <CardDescription>
+            {user.role === "confirmed" || user.role === "admin"
+              ? "Register a phone with the hosted gbrain-sms service. No local PC or CLI is needed."
+              : "Ask an administrator to confirm your account before enrolling a hosted phone."}
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="flex flex-wrap items-center gap-6">
+          <Button
+            variant="brand"
+            onClick={() => void createEnrollment()}
+            loading={enrolling}
+            disabled={user.role !== "confirmed" && user.role !== "admin"}
+          >
+            Generate QR code
+          </Button>
+          {qrImage && (
+            <div className="space-y-2">
+              <Image src={qrImage} alt="AudioLink enrollment QR code" width={160} height={160} unoptimized className="h-40 w-40 rounded-lg bg-white p-2" />
+              {enrollmentExpiresAt && (
+                <p className="text-xs text-muted-foreground">
+                  Expires {new Date(enrollmentExpiresAt).toLocaleString()}
+                </p>
+              )}
+            </div>
+          )}
+        </CardContent>
+      </Card>
 
       <div className="grid gap-6 lg:grid-cols-3">
         <Card className="lg:col-span-2">
