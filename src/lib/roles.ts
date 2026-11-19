@@ -17,3 +17,7 @@ export function roleForEmail(email: string): UserRole {
 export function isConfirmedRole(role: UserRole | undefined): boolean {
   return role === "confirmed" || role === "admin";
 }
+
+export function isAdminRole(role: UserRole | undefined): boolean {
+  return role === "admin";
+}

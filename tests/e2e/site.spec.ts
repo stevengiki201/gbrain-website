@@ -72,3 +72,23 @@ test("documentation index links to product guides", async ({ page }) => {
   ).toBeVisible();
   await expect(page.getByRole("heading", { name: "ShuleBomba" })).toBeVisible();
 });
+
+test("admin can open the company console", async ({ page }) => {
+  await page.goto("/dashboard/sms/login");
+  await page.getByRole("textbox", { name: "Email" }).fill(process.env.E2E_ADMIN_EMAIL ?? "admin@example.com");
+  await page.getByLabel("Password", { exact: true }).fill(process.env.E2E_ADMIN_PASSWORD ?? "local-admin-password");
+  await page.getByRole("button", { name: "Sign in", exact: true }).click();
+
+  await expect(page).toHaveURL(/\/dashboard\/sms$/);
+  await page.getByRole("link", { name: "Admin console" }).click();
+
+  await expect(page).toHaveURL(/\/dashboard\/admin$/);
+  await expect(page.getByRole("heading", { name: "Administrator console" })).toBeVisible();
+  await expect(page.getByText("Service health")).toBeVisible();
+
+  await page.getByRole("button", { name: "Users", exact: true }).click();
+  await expect(page.getByRole("heading", { name: "User access" })).toBeVisible();
+
+  await page.getByRole("button", { name: "Services", exact: true }).click();
+  await expect(page.getByRole("heading", { name: "Register service" })).toBeVisible();
+});

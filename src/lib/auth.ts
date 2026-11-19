@@ -1,7 +1,7 @@
 import { createHash, createHmac, randomBytes, scryptSync, timingSafeEqual } from "node:crypto";
 import { cookies } from "next/headers";
 import type { NextRequest, NextResponse } from "next/server";
-import { isConfirmedRole } from "./roles";
+import { isAdminRole, isConfirmedRole } from "./roles";
 import { getStore, type DeviceRecord, type UserRecord } from "./server-store";
 
 const SESSION_COOKIE = "gbrain_session";
@@ -84,6 +84,19 @@ export function isConfirmedUser(user: PublicUser | UserRecord | null): boolean {
   return Boolean(user && isConfirmedRole(user.role));
 }
 
+export function isAdminUser(user: PublicUser | UserRecord | null): boolean {
+  return Boolean(user && isAdminRole(user.role));
+}
+
+export function hasCronSecret(request: NextRequest): boolean {
+  const configured = process.env.CRON_SECRET;
+  const supplied = request.headers.get("x-cron-secret");
+  if (!configured || !supplied) return false;
+  const expected = Buffer.from(configured);
+  const actual = Buffer.from(supplied);
+  return actual.length === expected.length && timingSafeEqual(actual, expected);
+}
+
 export function hasServiceToken(request: NextRequest): boolean {
   const configured = process.env.GBRAIN_SERVICE_TOKEN;
   const supplied = request.headers.get("x-service-token");
@@ -116,6 +129,11 @@ export function getRequestUser(request: NextRequest): PublicUser | null {
 
 export function getRequestUserRecord(request: NextRequest): UserRecord | null {
   return userFromToken(request.cookies.get(SESSION_COOKIE)?.value);
+}
+
+export function getRequestAdmin(request: NextRequest): UserRecord | null {
+  const user = getRequestUserRecord(request);
+  return isAdminUser(user) ? user : null;
 }
 
 export function getRequestDevice(request: NextRequest): DeviceRecord | null {

@@ -93,6 +93,18 @@ The bundled store is file-backed at `GBRAIN_DATA_DIR/gbrain-web.json`. Mount a
 persistent volume and set `SESSION_SECRET` in production, or replace the store
 adapter with a shared database before running multiple app instances.
 
+## Company admin console
+
+Administrators sign in at `/dashboard/admin`. Admin access is granted through
+`GBRAIN_ADMIN_EMAILS`; confirmed user access is granted through
+`GBRAIN_CONFIRMED_EMAILS`. The console provides user confirmation, service
+monitoring, hosted device management, enrollment review, and an audit log.
+
+Add `CRON_SECRET` and call `POST /api/cron/health-check` with
+`x-cron-secret: <CRON_SECRET>` from a scheduler to probe registered services.
+Services that cannot be probed externally can report status to
+`POST /api/internal/services/heartbeat` with `x-service-token: <GBRAIN_SERVICE_TOKEN>`.
+
 ## CI
 
 `.github/workflows/ci-cd.yml` runs formatting, linting, typechecking, unit tests, a production build, Lighthouse budgets and Playwright E2E tests on every push and pull request.

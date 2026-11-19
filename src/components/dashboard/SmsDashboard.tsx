@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import QRCode from "qrcode";
 import { Button } from "@/components/ui/Button";
@@ -161,6 +162,11 @@ export function SmsDashboard({ user }: { user: User }) {
           <p className="text-sm text-muted-foreground">{user.email}</p>
         </div>
         <div className="flex gap-3">
+          {(user.role === "admin" || user.role === "confirmed") && (
+            <Button asChild variant="outline">
+              <Link href="/dashboard/admin">Admin console</Link>
+            </Button>
+          )}
           <Button variant="outline" onClick={() => void load()} disabled={loading}>
             Refresh
           </Button>
