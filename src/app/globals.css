@@ -158,6 +158,10 @@ html {
   animation: slideInFromBottom 0.3s ease-out forwards;
 }
 
+.slide-in-from-left {
+  animation: slideInFromLeft 0.3s ease-out forwards;
+}
+
 .fade-in {
   animation: fadeIn 0.3s ease-out forwards;
 }
@@ -201,6 +205,17 @@ html {
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 

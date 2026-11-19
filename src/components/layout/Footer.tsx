@@ -20,7 +20,7 @@ const footerLinks: Record<
     { href: "/contact", labelKey: "footer.company.contact" },
   ],
   resources: [
-    { href: "/docs", labelKey: "footer.resources.docs" },
+    { href: "/products", labelKey: "footer.resources.docs" },
     { href: "/blog", labelKey: "footer.resources.blog" },
     { href: "/blog", labelKey: "footer.resources.community" },
     { href: "/support", labelKey: "footer.resources.support" },

@@ -69,8 +69,29 @@ See `.env.example`. Production requires:
 - `RESEND_API_KEY` — Resend API key
 - `RESEND_AUDIENCE_ID` — newsletter audience ID
 - `RESEND_FROM_EMAIL` — verified sender identity
+- `SESSION_SECRET` — long random secret used to sign account sessions
+
+Optional:
+
+- `NEXT_PUBLIC_PHONELINK_DASHBOARD_URL` — PhoneLink dashboard link on the product page. Defaults to `http://phonelink.localhost:7842`; set it to `https://phonelink.gbrain.tech` in production.
+- `GBRAIN_DATA_DIR` — directory for the local JSON user/device/message store. Defaults to `./data`.
+- `NEXT_PUBLIC_SMS_DASHBOARD_URL` — SMS dashboard link for documentation.
 
 Without Resend credentials, API routes return a `503` in production. In development they respond with `demo: true`.
+
+## User accounts and SMS dashboard
+
+Users sign up at `/dashboard/sms/login`, then connect PCs with `gbrain-cli sign-in`
+from the `gbrain-sms` repository. Multiple PCs can be connected to one account;
+each PC receives its own token and appears separately in the dashboard.
+
+The SMS dashboard caches messages synced by the CLI and shows the existing
+AudioLink 6-digit phone pairing code forwarded from the local bridge. The website
+never receives the local AudioLink admin token.
+
+The bundled store is file-backed at `GBRAIN_DATA_DIR/gbrain-web.json`. Mount a
+persistent volume and set `SESSION_SECRET` in production, or replace the store
+adapter with a shared database before running multiple app instances.
 
 ## CI
 

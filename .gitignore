@@ -54,3 +54,6 @@ Desktop.ini
 # Logs
 logs
 *.log
+
+# Local app data
+data/

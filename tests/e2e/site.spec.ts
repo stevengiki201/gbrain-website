@@ -32,7 +32,7 @@ test("ShuleBomba product links to Google Play and documentation", async ({
 }) => {
   await page.goto("/products/shulebomba");
 
-  await expect(page.getByRole("heading", { name: "ShuleBomba" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "ShuleBomba", exact: true })).toBeVisible();
   await expect(
     page.getByRole("link", { name: /get on google play/i }).first(),
   ).toHaveAttribute(
@@ -50,6 +50,17 @@ test("ShuleBomba product links to Google Play and documentation", async ({
     "href",
     "https://play.google.com/store/apps/details?id=app.ShuleBomba.com&hl=en",
   );
+});
+
+test("PhoneLink product links to the web dashboard", async ({ page }) => {
+  await page.goto("/products/phonelink");
+
+  await expect(
+    page.getByRole("link", { name: /open web dashboard/i }),
+  ).toHaveAttribute("href", "http://phonelink.localhost:7842");
+  await expect(
+    page.getByRole("heading", { name: /open the PhoneLink web dashboard/i }),
+  ).toBeVisible();
 });
 
 test("documentation index links to product guides", async ({ page }) => {

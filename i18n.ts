@@ -25,6 +25,14 @@ export const routing = {
       sw: "/bidhaa/shulebomba",
     },
     "/solutions": { en: "/solutions", sw: "/suluhisho" },
+    "/products/[product]/docs": {
+      en: "/products/[product]/docs",
+      sw: "/bidhaa/[product]/docs",
+    },
+    "/products/[product]/docs/[slug]": {
+      en: "/products/[product]/docs/[slug]",
+      sw: "/bidhaa/[product]/docs/[slug]",
+    },
     "/docs": { en: "/docs", sw: "/docs" },
     "/docs/[product]": { en: "/docs/[product]", sw: "/docs/[product]" },
     "/docs/[product]/[slug]": {
@@ -35,6 +43,11 @@ export const routing = {
     "/support": { en: "/support", sw: "/msaada" },
     "/security": { en: "/security", sw: "/usalama" },
     "/admin": { en: "/admin", sw: "/admin" },
+    "/dashboard/sms": { en: "/dashboard/sms", sw: "/dashibodi/sms" },
+    "/dashboard/sms/login": {
+      en: "/dashboard/sms/login",
+      sw: "/dashibodi/sms/kuingia",
+    },
     "/legal/privacy": { en: "/legal/privacy", sw: "/sheria/faragha" },
     "/legal/terms": { en: "/legal/terms", sw: "/sheria/vigezo" },
     "/legal/cookies": { en: "/legal/cookies", sw: "/sheria/cookies" },

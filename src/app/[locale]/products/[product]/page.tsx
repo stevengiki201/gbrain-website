@@ -7,6 +7,9 @@ import { ProductDownload } from "@/components/product/ProductDownload";
 import { ProductDocs } from "@/components/product/ProductDocs";
 import { ProductFAQ } from "@/components/product/ProductFAQ";
 import { ProductChangelog } from "@/components/product/ProductChangelog";
+import { ProductDashboard } from "@/components/product/ProductDashboard";
+import { SmsDashboardCta } from "@/components/product/SmsDashboardCta";
+import { getPhonelinkDashboardUrl } from "@/lib/phonelink";
 
 const productData: Record<
   string,
@@ -36,7 +39,7 @@ const productData: Record<
     name: "GBrain SMS + AudioLink",
     tagline: "AI-powered SMS & voice, fully local",
     description:
-      "SMS chatbot with Ollama brain + acoustic voice bridge (Whisper + Piper). Works over USB/ADB, no cloud.",
+      "Wi-Fi-first SMS chatbot with an AI reply engine, AudioLink phone bridge, and a secure browser dashboard reachable through gbrain-cli.",
     icon: "💬",
     platforms: ["Linux", "Android"],
     status: "Beta",
@@ -107,6 +110,10 @@ export default async function ProductPage({
   return (
     <div className="flex flex-col">
       <ProductHero data={data} />
+      {product === "phonelink" && (
+        <ProductDashboard dashboardUrl={getPhonelinkDashboardUrl()} />
+      )}
+      {product === "sms" && <SmsDashboardCta />}
       <ProductFeatures product={product} />
       <ProductScreenshots product={product} />
       <ProductDownload product={product} data={data} />

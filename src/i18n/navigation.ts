@@ -16,5 +16,5 @@ export const {
 
 export type StaticPathname = Exclude<
   keyof typeof routing.pathnames,
-  `${string}[${string}]`
+  `${string}[${string}]${string}`
 >;
