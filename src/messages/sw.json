@@ -1,0 +1,729 @@
+{
+  "common": {
+    "nav": {
+      "products": "Bidhaa",
+      "solutions": "Suluhisho",
+      "about": "Kuhusu",
+      "blog": "Blogu",
+      "contact": "Mawasiliano"
+    },
+    "skipToContent": "Ruka hadi maudhui kuu",
+    "mainNavigation": "Uongozi mkuu",
+    "selectLanguage": "Chagua lugha",
+    "openMenu": "Fungua menyu",
+    "closeMenu": "Funga menyu",
+    "theme": {
+      "light": "Hali ya mwanga",
+      "dark": "Hali ya gizani"
+    },
+    "footer": {
+      "tagline": "Programu za praktiki, zilizoendeshwa na AI ya kidevaisi — zilizojengwa Tanzania, kwa Afrika na ulimwengu.",
+      "products": {
+        "title": "Bidhaa",
+        "media": "GBrain Media Player",
+        "sms": "GBrain SMS + AudioLink",
+        "phonelink": "PhoneLink",
+        "neural": "GBrain Neural"
+      },
+      "company": {
+        "title": "Shirika",
+        "about": "Kuhusu Sisi",
+        "blog": "Blogu",
+        "careers": "Ajira",
+        "contact": "Mawasiliano"
+      },
+      "resources": {
+        "title": "Rasilimali",
+        "docs": "Dokumentasi",
+        "blog": "Blogu",
+        "community": "Jumuiya",
+        "support": "Msaada"
+      },
+      "legal": {
+        "title": "Kisheria",
+        "privacy": "Sera ya Faragha",
+        "terms": "Vigezo vya Huduma",
+        "cookies": "Sera ya Cookies",
+        "security": "Usalama"
+      },
+      "copyright": "GBrain Technologies Company Limited. Haki zote zimehifadhiwa.",
+      "address": "Dar es Salaam, Tanzania",
+      "phone": "+255 XXX XXX XXX"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Nyumbani",
+      "description": "GBrain Technologies inajenga programu za praktiki zilizoendeshwa na AI ya kidevaisi. Bidhaa: GBrain Media Player, GBrain SMS + AudioLink, PhoneLink, GBrain Neural System.",
+      "ogTitle": "GBrain Technologies — Programu za Practiki, Zinazoweza na AI ya Kidevaisi",
+      "ogDescription": "Kujenga programu za praktiki zinazoweza na AI ya kidevaisi. Kwanza kidevaisi, faragha kwanza, inafanya kazi bila mtandao."
+    },
+    "hero": {
+      "badge": "Mpya: GBrain Neural System v0.1 — Vipindi 1-12 vimekamalika",
+      "headline": "Programu za praktiki, zinazoweza na AI ya kidevaisi",
+      "subheadline": "Zilizojengwa Tanzania, kwa Afrika na ulimwengu. Kwanza kidevaisi, faragha kwanza, inafanya kazi bila mtandao. Bidhaa nne, lengo moja: programu inayeheshimu data yako na inayofanya kazi kila mahali.",
+      "cta": {
+        "primary": "Chunguza Bidhaa",
+        "secondary": "Wasiliana Nasi"
+      },
+      "trust": {
+        "localFirst": "AI ya kwanza kidevaisi",
+        "offlineReady": "Inafanya kazi oflayini",
+        "africaBuilt": "Imejengwa Afrika",
+        "openSource": "Nyenzo wazi"
+      },
+      "demo": {
+        "caption": "Inaendeshwa kabisa kwenye kifaa chako",
+        "live": "Hai",
+        "running": "Inaendeshwa oflayini",
+        "offline": "Haitumii mtandao"
+      }
+    },
+    "trust": {
+      "items": {
+        "award": "Mshindaji wa Tuzo",
+        "awardValue": "3",
+        "users": "Watumiaji Waliopo",
+        "usersValue": "10K+",
+        "countries": "Nchi",
+        "countriesValue": "45+",
+        "rating": "Rejta ya App Store",
+        "ratingValue": "4.8★",
+        "privacy": "Faragha Kwanza",
+        "privacyValue": "100%",
+        "platforms": "Vitao",
+        "platformsValue": "4"
+      }
+    },
+    "products": {
+      "title": "Bidhaa Zetu",
+      "subtitle": "Zana nne maalum, zilizounganishwa na falsafa moja: kwanza kidevaisi, kuheshimu faragha, kufanya kazi bila mtandao.",
+      "viewDetails": "Tazama maelezo",
+      "descriptions": {
+        "media": "Kicheza muziki na video kwanza-nje-ya-mtandao kwa Android. Skana midia ya eneo, unda orodha za kucheza na ucheza bila wingu.",
+        "sms": "Msaidizi wa SMS anayetumia AI ya Ollama ya eneo na daraja la sauti linalotumia Whisper na Piper.",
+        "phonelink": "Usimamizi wa simu ya Android bila waya kutoka kompyuta ya Linux. Akisi skrini, hamisha faili na udhibiti vifaa kwenye mtandao wako.",
+        "neural": "Jukwaa la utekelezaji wa AI lenye wakala wa MrX, injini za kazi, udhibiti wa vifaa na mifumo ndogo iliyounganishwa."
+      }
+    },
+    "why": {
+      "badge": "Kwa Nini Gbrain",
+      "title": "Tofauti kwa ubunifu",
+      "subtitle": "Sio tu kuongeza AI kama sifa. Tunajenga programu ambapo ujasiri wa kidevaisi ndio msingi.",
+      "features": {
+        "localFirst": {
+          "title": "AI ya kwanza kidevaisi",
+          "desc": "Ollama, Whisper, na Piper zinazenda kwenye kifaa chako. Hakuna cloud ya lazima, hakuna data inayondoka kwenye mashine yako."
+        },
+        "privacy": {
+          "title": "Faragha kwa chaguo-msingi",
+          "desc": "Mazungumzo yako, media, na data ya utekelezaji wako wawe wako. Hakuna utambuzi, hakuna kufuatilia, hakuna vyaaka vinavyohitajika."
+        },
+        "offline": {
+          "title": "Inafanya kazi oflayini",
+          "desc": "Uwezo kamili bila intaneti. Majibu ya AI, ucheleweshaji wa media, udhibiti wa kifaa — yote ya ndani."
+        },
+        "fullStack": {
+          "title": "Mwisho-mwisho ndani",
+          "desc": "Simu, desktopo, backend, AI/ML, na utekelezaji wa karibu na vitufe — zote zilizojengwa na timu yetu."
+        },
+        "africa": {
+          "title": "Imejengwa Tanzania",
+          "desc": "Imeundwa kwa mambo ya Kiafrika: uunganisho usio thabiti, watumiaji wanaolugha nyingi, data inayohitaji kiasi."
+        },
+        "open": {
+          "title": "Nyenzo wazi na inaweza kuongezeka",
+          "desc": "Misuli ya msingi ya MIT. Mkataba wa AI usio na mtoa huduma — badilisha Ollama kwa ubongo wowote unaofaa."
+        }
+      }
+    },
+    "stats": {
+      "products": "Bidhaa zilizotumwa",
+      "phases": "Vipindi vya Neural vimekamalika",
+      "offline": "Weza oflayini",
+      "scalable": "Inaweza kukubwa bila kikomo"
+    },
+    "testimonials": {
+      "title": "Yatimiziwa na waandishi na watumiaji",
+      "subtitle": "Ushahidi halisi kutoka kwa watu wanaotumia bidhaa za GBrain kila siku.",
+      "1": {
+        "quote": "GBrain Media Player imebadilisha programu tatu kwenye simu yangu. Inafanya kazi — oflayini, haraka, nzuri.",
+        "author": "Amina K.",
+        "role": "Mwanzilishi wa Simu",
+        "company": "Andela"
+      },
+      "2": {
+        "quote": "Bot ya SMS inakimbia kwenye seva yangu ya nyumbani. Majibu yanahisi binadamu, inafanya kazi wakati wa kukosa umeme. Kichwa cha kisasa.",
+        "author": "James M.",
+        "role": "Mhandisi wa Mfumo",
+        "company": "Twiga Foods"
+      },
+      "3": {
+        "quote": "PhoneLink inaniruhusu kudhibiti vifaa vya majaribio kutoka laptop yangu. Hakuna kamba za USB, hakuna matatizo ya ADB.",
+        "author": "Sarah L.",
+        "role": "Mkuu wa Uhakiki",
+        "company": "Kobo360"
+      }
+    },
+    "newsletter": {
+      "title": "Baki umepatikana",
+      "subtitle": "Pata masasisho ya bidhaa, maonyo ya uhandisi, na maonyo ya matoleo. Hakuna spam, ona uweza kughairi kila wakati.",
+      "placeholder": "wewe@baruapepe.com",
+      "button": "Jiandikishe",
+      "loading": "Inaandikisha...",
+      "success": "Imeandikishwa!",
+      "privacy": "Tunaheshimu faragha yako. Ona Sera yetu ya Faragha.",
+      "toast": {
+        "success": "Asante kwa kujiandikisha! Angalia barua pepe yako kwa uthibitisho.",
+        "error": "Kuna tatizo. Tafadhali jaribu tena."
+      }
+    }
+  },
+  "product": {
+    "hero": {
+      "getOnPlay": "Pata kwenye Google Play",
+      "downloadApk": "Pakua APK",
+      "viewSource": "Ona Chanzo",
+      "previewTitle": "Muonekano wa kiolesura",
+      "previewSubtitle": "Angalia skrini za bidhaa hapa chini.",
+      "viewScreenshots": "Tazama skrini"
+    },
+    "features": {
+      "title": "Sifa",
+      "subtitle": "Imeundwa kwa matumizi ya halisi, na makini kwenye kila chanzo."
+    },
+    "screenshots": {
+      "title": "Picha za Skrini",
+      "subtitle": "Ona bidhaa inavyofanya kazi.",
+      "placeholderNote": "Muonekano ulioonyeshwa hapa ni wa kielelezo."
+    },
+    "download": {
+      "title": "Pakua na Mahitaji",
+      "subtitle": "Anza kwa dakika. Angalia miongozo ya hivi karibuni kwa kila toleo.",
+      "requestAccess": "Omba ufikiaji",
+      "downloads": {
+        "title": "Upakuaji Uliopo"
+      },
+      "checksums": {
+        "title": "Thibitisha Checksums"
+      },
+      "requirements": {
+        "title": "Mahitaji ya Mfumo",
+        "note": "Angalia GitHub Releases kwa toleo jipya na maelezo ya msingi ya kufanya kazi."
+      }
+    },
+    "docs": {
+      "title": "Dokumentasi",
+      "subtitle": "Mwongozo kamili, marejeleo ya API, na mafundisho.",
+      "readMore": "Soma zaidi",
+      "viewAllDocs": "Ona dokumentosi yote"
+    },
+    "faq": {
+      "title": "Maswali Yanayoulizwa Mara kwa Mara",
+      "subtitle": "Majibu haraka kwa maswali ya kawaida."
+    },
+    "changelog": {
+      "title": "Changelog",
+      "subtitle": "Ona kipya kwenye kila toleo.",
+      "viewOnGitHub": "Ona kwenye GitHub"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Kuhusu Sisi",
+      "description": "Jifunze kuhusu GBrain Technologies — lengo letu, thamani zetu, timu, na historia. Tunanjenga programu za praktiki zinazoweza na AI ya kidevaisi Tanzania."
+    },
+    "hero": {
+      "badge": "Imejengwa Tanzania, kwa Afrika na ulimwengu",
+      "title": "Kuhusu GBrain Technologies",
+      "subtitle": "Tunanjenga programu za praktiki zinazoweza na AI ya kidevaisi. Kwanza kidevaisi, faragha kwanza, inafanya kazi oflayini. Bidhaa nne, lengo moja.",
+      "team": "Wanachama 4 wa timu",
+      "awards": "Tuzo 3",
+      "rating": "Rejta 4.8★"
+    },
+    "mission": {
+      "title": "Lengo Letu na Onyo Letu",
+      "subtitle": "Kwanini tunako na tuliko kwenda.",
+      "vision": "Onyo",
+      "visionDesc": "Ulimwengu ambapo kila mtu Afrika ana upatikanaji wa programu nzuri, ya faragha, inayoweza kufanya kazi oflayini, inayofanya kazi kulingana na masharti yao — si ya mtoa huduma wa cloud.",
+      "mission": "Lengo",
+      "missionDesc": "Kujenga programu za praktiki zinazoweza na AI ya kidevaisi zinazoheshimu faragha ya mtumiaji, zinazofanya kazi oflayini, na kutatua matatizo ya kweli kwa watumiaji wa Kiafrika na mengine."
+    },
+    "values": {
+      "title": "Thamani Zetu",
+      "subtitle": "Misingi inayongoza kila uamuzi.",
+      "privacy": {
+        "title": "Faragha Kwanza",
+        "desc": "Data ya mtumiaji inawa mtumiaji. Hakuna kufuatilia, hakuna kuuza, hakuna vyaaka vya lazima."
+      },
+      "offline": {
+        "title": "Oflayini kwa Chaguo-msingi",
+        "desc": "Programu inapaswa kufanya kazi kila mahali — kwenye basi, kijijini, wakati wa kukosa umeme."
+      },
+      "africa": {
+        "title": "Imeundwa kwa Afrika",
+        "desc": "Imeundwa kwa ukweli wa Kiafrika: data inayohitaji kiasi, watumiaji wanaolugha nyingi, uunganisho usio thabiti."
+      },
+      "open": {
+        "title": "Nyenzo Wazi na Inaweza Kuongezeka",
+        "desc": "Misuli ya msingi ya MIT. Mkataba wa AI usio na mtoa huduma. Badilisha vipengele, si falsafa."
+      },
+      "practical": {
+        "title": "Praktiki Kuliko Uigizaji",
+        "desc": "Tunajenga vifaa vinavyotatua matatizo, si maonyesho yanayovutia wategemezi."
+      },
+      "care": {
+        "title": "Kujali Watumiaji",
+        "desc": "Kila kesi ya pembe inahesabika. Kila bug ni ahadi iliyovunjika."
+      }
+    },
+    "timeline": {
+      "title": "Safari Yetu",
+      "subtitle": "Kutoka fikra hadi bidhaa zilizotumwa.",
+      "2024": {
+        "title": "Ilianzishwa",
+        "desc": "GBrain Technologies Company Limited iliyosajiliwa Tanzania. Bidhaa ya kwanza: GBrain Media Player."
+      },
+      "2025": {
+        "title": "Ukuaji",
+        "desc": "GBrain SMS + AudioLink ilitolewa. PhoneLink v1.0 ilitolewa. Timu ikakua hadi 4."
+      },
+      "2026": {
+        "title": "Jukwaa",
+        "desc": "GBrain Neural System Vipindi 1-12 vimekamalika. MrX, udhibiti wa desktopo/browser, subsystems zimeungwa."
+      }
+    },
+    "team": {
+      "title": "Timu",
+      "subtitle": "Timu ndogo, athari kubwa.",
+      "careers": {
+        "title": "Jiunge Nasi",
+        "subtitle": "Daima tunatafuta wajenga wanaowajali faragha, oflayini-kwanza, na watumiaji wa Kiafrika.",
+        "cta": "Ona Nafasi Zilizopo"
+      }
+    },
+    "careers": {
+      "title": "Ajira",
+      "subtitle": "Unataka kujenga programu za praktiki zinazohusika? Tunatafuta wafanyikazi.",
+      "cta": "Ona Nafasi Zilizofunguliwa"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blogu",
+      "description": "Maonyo ya uhandisi, matangazo ya matoleo, na mtazamo kutoka kwa timu ya GBrain. Kujenga programu za praktiki zinazoweza na AI ya kidevaisi."
+    },
+    "hero": {
+      "title": "Blogu ya GBrain",
+      "subtitle": "Maonyo ya uhandisi, maonyo ya matoleo, na mtazamo kutoka kwa timu inayojenga programu za praktiki zinazoweza na AI ya kidevaisi."
+    },
+    "readMore": "Soma zaidi",
+    "loadMore": "Pakia maonyo zaidi",
+    "newsletter": {
+      "title": "Baki Umepatikana",
+      "subtitle": "Pata maonyo mpya kwenye barua pepe yako. Hakuna spam, ona uweza kughairi kila wakati.",
+      "placeholder": "wewe@baruapepe.com",
+      "button": "Jiandikishe"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Wasiliana Nasi",
+      "description": "Wasiliana na GBrain Technologies. Tungependa kusikia kutoka kwako — swali, maoni, au maombi ya biashara."
+    },
+    "hero": {
+      "title": "Wasiliana Nasi",
+      "subtitle": "Una maswali? Unataka ushirikiano? Unahitaji msaada? Tunako kusaidia."
+    },
+    "form": {
+      "title": "Tutumie ujumbe",
+      "subtitle": "Tunawaambia kwa kawaida ndani ya masaa 24.",
+      "name": "Jina",
+      "namePlaceholder": "Jina lako",
+      "email": "Barua Pepe",
+      "emailPlaceholder": "wewe@baruapepe.com",
+      "subject": "Mada",
+      "subjectPlaceholder": "Hii inahusu nini?",
+      "message": "Ujumbe",
+      "messagePlaceholder": "Tueleze zaidi...",
+      "submit": "Tuma Ujumbe",
+      "sending": "Inatuma...",
+      "sent": "Imetumwa!",
+      "successMessage": "Asante kwa kuwasiliana! Tutawasiliana nawe hivi karibuni.",
+      "errorMessage": "Kuna tatizo. Tafadhali jaribu tena au tutumie barua pepe moja kwa moja."
+    },
+    "info": {
+      "title": "Njia zingine za kuwasiliana",
+      "email": { "title": "Barua Pepe", "value": "hello@gbrain.tech" },
+      "address": { "title": "Anwani", "value": "Dar es Salaam, Tanzania" },
+      "phone": { "title": "Simu", "value": "+255 XXX XXX XXX" },
+      "whatsapp": { "title": "WhatsApp", "value": "WhatsApp Business" },
+      "business": {
+        "title": "Maombi ya Biashara",
+        "desc": "Ushirikiano, leseni, mauzo ya shirika, au uundaji wa kipekee.",
+        "cta": "Anza mazungumzo"
+      }
+    },
+    "toast": {
+      "success": "Ujumbe umetumwa! Tutawasiliana nawe hivi karibuni.",
+      "error": "Imeshindwa kutuma. Tafadhali jaribu tena."
+    }
+  },
+  "solutions": {
+    "meta": {
+      "title": "Suluhisho",
+      "description": "Gundua jinsi bidhaa za GBrain zinavyotatua matatizo ya kweli — ufanisi binafsi, mawasiliano ya biashara, vifaa vya waandishi, elimu, utekelezaji, na media."
+    },
+    "hero": {
+      "title": "Suluhisho kulingana na Matumizi",
+      "subtitle": "Bidhaa nne, matumizi yasiyo na kikomo. Pata chombo sahihi kwa mahitaji yako."
+    },
+    "productsIncluded": "Bidhaa zilizojumuishwa",
+    "personal": {
+      "title": "Ufanisi Binafsi",
+      "desc": "Simamia media yako, ujumbe, na vifaa — yote oflayini, yote faragha.",
+      "features": [
+        "Makutano ya muziki na video oflayini",
+        "Majibu ya SMS ya AI",
+        "Mawasiliano ya sauti bila cloud",
+        "Hakuna kufuatilia, hakuna matangazo"
+      ],
+      "cta": "Chunguza kwa matumizi binafsi"
+    },
+    "business": {
+      "title": "Mawasiliano ya Biashara",
+      "desc": "Utekelezaji wa SMS ya wateja, simamia vifaa vya timu, unganisha na mchakato wa kazi.",
+      "features": [
+        "Majibu ya SMS ya ratiba na ya kwa ajili",
+        "Udhibiti wa vifaa mbali",
+        "Unganisho wa API na webhook",
+        "Utekelezaji wa ndani"
+      ],
+      "cta": "Zungumzia mahitaji ya biashara"
+    },
+    "developer": {
+      "title": "Vifaa vya Waandishi",
+      "desc": "Ajenti ya AI ya uandishi, utekelezaji wa vifaa, udhibiti wa browser — yote ya programu.",
+      "features": [
+        "MrX mstaafu wa uandishi",
+        "Utekelezaji wa desktopo na browser",
+        "REST API + webhooks",
+        "Jukwaa wazi, lisensi ya MIT"
+      ],
+      "cta": "Anza kujenga"
+    },
+    "education": {
+      "title": "Elimu na Utafiti",
+      "desc": "Media oflayini kwa madarasa, msaidizi wa AI kwa kujifunza, vifaa vya maabara.",
+      "features": [
+        "Inafanya kazi bila intaneti",
+        "AI ya ndani kwa faragha",
+        "Udhibiti wa vifaa vingi",
+        "Utekelezaji wa bei nafuu"
+      ],
+      "cta": "Jifunze kwa elimu"
+    },
+    "automation": {
+      "title": "Utekelezaji na IoT",
+      "desc": "Dhibiti vifaa, kukusanya data za browser, uendeshane mchakato — kutoka jukwaa moja.",
+      "features": [
+        "Udhibiti wa desktopo na browser",
+        "Matakazi ya ratiba na triga",
+        "Unganisho wa GitHub na webhook",
+        "Utekelezaji wa ndani, hakuna cloud"
+      ],
+      "cta": "Utekelezaji mchakato"
+    },
+    "media": {
+      "title": "Media na Burudani",
+      "desc": "Kituo chako cha binafsi cha media — kilichopangwa, kizuri, kamili oflayini.",
+      "features": [
+        "Makutano ya muziki na video",
+        "Orodha za ucheleweshaji na vipendwa",
+        "Mandhari na uundaji wa binafsi",
+        "Utegemezi wa cloud sifuri"
+      ],
+      "cta": "Jaribu mcheleweshaji wa media"
+    },
+    "custom": {
+      "title": "Unahitaji Suluhisho la Kipekee?",
+      "subtitle": "Tunajenga programu zinazowekwa kwa chakula cha shirika zinazohitaji mahitaji tofauti. Ndani, oflayini-kwanza, inayeheshimu faragha.",
+      "cta": "Zungumzia mradi wa kipekee"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "meta": {
+        "title": "Sera ya Faragha",
+        "description": "Sera ya Faragha ya GBrain Technologies — jinsi tunavyokusanya, kutumia, na kulinda data yako. Programu za kwanza kidevaisi, zinazoheshimu faragha."
+      },
+      "title": "Sera ya Faragha",
+      "lastUpdated": "Imezasishwa mwisho:",
+      "sections": {
+        "intro": {
+          "title": "Utangulizi",
+          "content": "GBrain Technologies Company Limited (\"GBrain\", \"sisi\", \"wet\") inajitolea kulinda faragha yako. Sera hii ya Faragha inaelezea jinsi tunavyokusanya, kutumia, na kulinda habari yako unapotumia tovuti, bidhaa, na huduma zetu."
+        },
+        "data": {
+          "title": "Data Tunayokusanya",
+          "content": "Tunakusanya data ndogo inayohitajika kutoa huduma zetu:",
+          "items": [
+            "Maelezo ya akaunti (ikiwa ukiunda): jina, barua pepe",
+            "Wasilishaji ya fomu ya mawasiliano: jina, barua pepe, maudhui ya ujumbe",
+            "Ujiandikishaji wa habari kwa barua pepe: anwani ya barua pepe",
+            "Uchambuzi wa tovuti: data ya matumizi yasiyo na jina (kwa Plausible/Fathom, bila cookies)",
+            "Logi za hitilafu: data ya kiufundi kwa kukosa (kwa Sentry, bila PII)",
+            "Matumizi ya bidhaa: tu ikiwa umejichagua; data yote ya bidhaa inabaki kwenye kifaa chako"
+          ]
+        },
+        "usage": {
+          "title": "Jinsi Tunavyotumia Data Yako",
+          "content": "Tunatumia data yako tu kwa:",
+          "items": [
+            "Kujibu maswali yako na maombi ya msaada",
+            "Kutumia masasisho ya barua pepe (tu kwa ridhaa)",
+            "Kuboresha tovuti na bidhaa zetu",
+            "Usalama na uzuizi wa ulaghai",
+            "Utekelezaji wa kisheria"
+          ]
+        },
+        "sharing": {
+          "title": "Ugawanyiko wa Data",
+          "content": "Hatuuzi data yako. Tunaweza kugawanya data tu kwenye hali hizi:",
+          "items": [
+            "Na ridhaa yako wazi",
+            "Na watoa huduma (Resend kwa barua pepe, Vercel kwa utekelezaji, Sentry kwa hitilafu) chini ya DPAs kali",
+            "Ikiwa inahitajika na sheria au kulinda haki zetu",
+            "Kwa muhtasari, hali ya kisiri kwa uchambuzi"
+          ]
+        },
+        "cookies": {
+          "title": "Cookies na Kufuatilia",
+          "content": "Tovuti yetu hutumia cookies ndogo:",
+          "items": [
+            "Muhimu: usimamizi wa kikao, ulinzi wa CSRF, chaguo",
+            "Chaguo: mandhari (mwanga/gizani), eneo la lugha",
+            "Uchambuzi: Plausible/Fathom (wenye faragha, bila data ya kibinafsi)",
+            "Hakuna cookies za matangazo, hakuna cookies za kufuatilia za upande wa tatu"
+          ]
+        },
+        "rights": {
+          "title": "Haki Zako",
+          "content": "Chini ya GDPR, PDPA ya Tanzania, na sheria zingine, una haki ya:",
+          "items": [
+            "Upatikanaji wa data yako ya kibinafsi",
+            "Kurekebisha data isiyo sahihi",
+            "Kufuta data yako (\"haki ya kuisahau\")",
+            "Kuzuia au kukataa utekelezaji",
+            "Uhamisho wa data",
+            "Kufuta ridhaa wakati wowote"
+          ]
+        },
+        "security": {
+          "title": "Usalama wa Data",
+          "content": "Tunatekeleza mikakati ya kiufundi na shirika inayostahili: usalama wa TLS, vichwa vya usalama, udhibiti wa upatikanaji, ukaguzi wa mara kwa mara wa usalama. Hata hivyo, hakuna uhamisho wa intaneti unaoweza kuwa salama 100%."
+        },
+        "changes": {
+          "title": "Mabadiliko ya Sera",
+          "content": "Tunaweza kusasisha sera hii. Mabadiliko muhimu yatataarifiwa kwa barua pepe au bana ya tovuti. Matumizi ya kuendelea yanamaanisha kukubali."
+        },
+        "contact": {
+          "title": "Wasiliana Nasi",
+          "content": "Maswali kuhusu sera hii? Wasiliana na Mkurugenzi wa Ulinzi wa Data kwenye privacy@gbrain.tech au andika kwa GBrain Technologies Company Limited, Dar es Salaam, Tanzania."
+        }
+      }
+    },
+    "terms": {
+      "meta": {
+        "title": "Vigezo vya Huduma",
+        "description": "Vigezo vya Huduma vya GBrain Technologies — kanuni na mwongozo kwa kutumia tovuti, bidhaa, na huduma zetu."
+      },
+      "title": "Vigezo vya Huduma",
+      "lastUpdated": "Imezasishwa mwisho:",
+      "sections": {
+        "acceptance": {
+          "title": "Kubali Vigezo",
+          "content": "Kwa kufikia au kutumia tovuti, bidhaa, au huduma zetu, unakubali kukabiliwa na Vigezo hivi. Usikubali, usitumie huduma zetu."
+        },
+        "use": {
+          "title": "Matumizi Yaliyoruhalishwa",
+          "content": "Unaweza kutumia huduma zetu kwa madhumuni ya kisheria tu. Unakubali kutofanya:",
+          "items": [
+            "Kuvunja sheria yoyote inayostahili au kanuni",
+            "Kuvunja haki za kimiliki ya akili",
+            "Kutumia malware, spam, au msimbo hatari",
+            "Kujaribu upatikanaji bila ruhusa kwa mifumo yetu",
+            "Kuchanganya furaha ya watumiaji wengine",
+            "Kutumia huduma zetu kwa uchambuzi wa ushindani bila ruhusa"
+          ]
+        },
+        "accounts": {
+          "title": "Vyaaka",
+          "content": "Baadhi ya huduma zinahitaji kuunda akaunti. Wewe unayejibu usalama wa nywila zako na shughuli zote chini ya akaunti yako."
+        },
+        "ip": {
+          "title": "Miliki ya Kiakili",
+          "content": "Maudhui yote, chapa za biashara, na programu kwenye jukwaa letu zinawa GBrain Technologies au zimepewa leseni. Huwezi kunakili, kuboresha, au kugawanya bila ruhusa.",
+          "items": [
+            "GBrain, GBrain Media, GBrain SMS, AudioLink, PhoneLink, GBrain Neural, MrX ni chapa zetu za biashara",
+            "Vipengele vya nyenzo wazi vinahifadhi mitambo yao ya awali (MIT, Apache-2.0, n.k.)",
+            "Maoni yako na mapendekezo yanawa miliki yetu"
+          ]
+        },
+        "disclaimer": {
+          "title": "Kana ya Dhamana",
+          "content": "Huduma zetu zinapatikana \"kama zilivyo\" na \"kama zinavyopatikana\" bila dhamana yoyote ya aina yoyote. Hatudhamini:",
+          "items": [
+            "Utekelezaji usio na kikatizo au hitilafu",
+            "Usahihi au ukamilifu wa maudhui",
+            "Kurekebisha hitilafu zote",
+            "Uhuru kutoka kwenye virus au vipengele hatari"
+          ]
+        },
+        "liability": {
+          "title": "Kikomo cha Wajibu",
+          "content": "Kiasi cha juu kinachoruhusiwa na sheria, GBrain Technologies haitawajibika kwa madhara yasiyo ya moja kwa moja, ya kupitia, maalum, ya matokeo, au ya adhabu, au hasara ya faida, data, au fursa za biashara."
+        },
+        "termination": {
+          "title": "Kutoweza",
+          "content": "Tunaweza kuzima au kutowa upatikanaji wako wakati wowote kwa kuvunja Vigezo hivi. Wewe unaweza kuacha kutumia huduma zetu wakati wowote."
+        },
+        "law": {
+          "title": "Sheria Inayodhibiti",
+          "content": "Vigezo hivi vinadhibitiwa na sheria za Tanzania. Migogoro itatatuliwa mahakamani Dar es Salaam."
+        },
+        "changes": {
+          "title": "Mabadiliko ya Vigezo",
+          "content": "Tunaweza kuboresha Vigezo hivi. Mabadiliko muhimu yatapashwa na tarehe iliyoboreshwa. Matumizi ya kuendelea yanamaanisha kukubali."
+        },
+        "contact": {
+          "title": "Wasiliana Nasi",
+          "content": "Maswali kuhusu Vigezo hivi? Wasiliana nasi kwenye legal@gbrain.tech."
+        }
+      }
+    },
+    "cookies": {
+      "meta": {
+        "title": "Sera ya Cookies",
+        "description": "Sera ya Cookies ya GBrain Technologies — cookies tunazotumia, kwa nini, na jinsi ya kuzidhibiti."
+      },
+      "title": "Sera ya Cookies",
+      "lastUpdated": "Imezasishwa mwisho:",
+      "sections": {
+        "what": {
+          "title": "Cookies Ni Nini?",
+          "content": "Cookies ni faili ndogo za maandishi zinazohifadhiwa kwenye kifaa chako unapotembelea tovuti. Zinasaidia tovuti kufanya kazi vizuri na kutoa uchambuzi."
+        },
+        "types": {
+          "title": "Aina za Cookies Tunazotumia",
+          "content": "Tunatumia zifuatazo:",
+          "items": [
+            "Muhimu: Vinahitajika kwa utendaji wa tovuti (kikao, CSRF, chaguo)",
+            "Uchambuzi: Plausible/Fathom (kisiri, kwanza faragha, bila data ya kibinafsi)",
+            "Chaguo: Mandhari (mwanga/gizani), eneo la lugha",
+            "Hakuna matangazo, cookies za matangazo, au cookies za kufuatilia za upande wa tatu"
+          ]
+        },
+        "purpose": {
+          "title": "Lengo la Cookies",
+          "content": "Cookies zinatusaidia:",
+          "items": [
+            "Kukumbuka chaguo chako cha mandhari na lugha",
+            "Kuendeleza vikao vya usalama",
+            "Kuelewa mtiririko wa matumizi yasiyo na jina kuboresha tovuti",
+            "Kuzuia ulaghai wa cross-site request"
+          ]
+        },
+        "thirdParty": {
+          "title": "Cookies za Upande wa Tatu",
+          "content": "Hatuweki cookies za upande wa tatu moja kwa moja. Watoa huduma w wetu wa uchambuzi (Plausible/Fathom) wanaweza kuweka cookies za kwanza upande kwenye eneo letu kwa uchambuzi wa kisiri.",
+          "items": [
+            "Plausible: kufuatilia ya kisiri ya maonyesho ya ukurasa",
+            "Fathom: uchambuzi wenye faragha kwanza",
+            "Vercel: uchambuzi wa utekelezaji (ikiwa imefunguliwa)",
+            "Hakuna Google Analytics, Facebook Pixel, au kufuatilia matangazo"
+          ]
+        },
+        "consent": {
+          "title": "Ridhaa",
+          "content": "Cookies muhimu huzalishwa kwa ajili. Cookies za uchambuzi zinahitaji ridhaa yako kwa bana yetu ya cookie. Unaweza kufuta ridhaa wakati wowote.",
+          "items": [
+            "Bana ya cookie inajitokeza kwenye ziara ya kwanza",
+            "Udhibiti wa puuzzi: kubali zote, kukataa uchambuzi, au kuunda kwa binafsi",
+            "Chaguo zimehifadhiwa kwa mwaka mmoja",
+            "Uondoa urahisi kupitia kitufe cha mipangilio ya cookie kwenye kifungu cha mwisho"
+          ]
+        },
+        "manage": {
+          "title": "Kudhibiti Cookies",
+          "content": "Unaweza kudhibiti cookies kupitia:",
+          "items": [
+            "Mipangilio ya browser: kuzuia, kufuta, au kuonyesha onyo kwa cookies",
+            "Kitufe yetu cha mipangilio ya cookie (kifungu cha mwisho): badilisha chaguo wakati wowote",
+            "Hali ya binafsi/incognito: cookies zimefutwa kufunga",
+            "Kumbuka: kuzuia cookies muhimu kunaweza kuvunja utendaji wa tovuti"
+          ]
+        },
+        "changes": {
+          "title": "Mabadiliko ya Sera",
+          "content": "Tunaweza kusasisha sera hii. Mabadiliko yatapashwa na tarehe iliyoboreshwa. Matumizi ya kuendelea yanamaanisha kukubali."
+        },
+        "contact": {
+          "title": "Wasiliana Nasi",
+          "content": "Maswali kuhusu cookies? Wasiliana nasi kwenye privacy@gbrain.tech."
+        }
+      }
+    }
+  },
+  "docs": {
+    "meta": {
+      "title": "Dokumentasi",
+      "description": "Miongozo, maelezo ya usanifu na rejea za CLI kwa kila bidhaa ya GBrain."
+    },
+    "title": "Dokumentasi ya GBrain",
+    "subtitle": "Miongozo ya vitendo ya kusakinisha, kusanidi na kupanua programu za GBrain.",
+    "allProducts": "Bidhaa zote",
+    "chooseProduct": "Chagua bidhaa",
+    "guides": "Miongozo",
+    "onThisPage": "Kwenye ukurasa huu",
+    "overview": "Muhtasari",
+    "commands": "Amri",
+    "relatedProduct": "Bidhaa husika",
+    "backToDocs": "Rudi kwenye dokumentasi",
+    "notFound": "Mwongozo huu haupo."
+  },
+  "pages": {
+    "careers": {
+      "title": "Ajira kwenye GBrain",
+      "description": "Jenga programu zinazotunza faragha na kufanya kazi bila mtandao na timu ndogo nchini Tanzania.",
+      "body": "Sisi ni timu ndogo inayojenga programu za vitendo kwa hali halisi: muunganisho usio imara, gharama ya data na vifaa ambavyo watu tayari wanao. Tunathamini wahandisi wanaojali faragha, ufundi na matokeo yanayopimika.",
+      "rolesTitle": "Tunachotafuta",
+      "roles": [
+        "Wahandisi wa simu (Expo / React Native)",
+        "Wahandisi wa seva na API (Python / FastAPI)",
+        "Wahandisi wa AI (miundo ya eneo, STT/TTS)",
+        "Waandishi wa kiufundi na wabunifu wa bidhaa"
+      ],
+      "cta": "Jitambulishe"
+    },
+    "support": {
+      "title": "Msaada",
+      "description": "Pata majibu na msaada kwa bidhaa za GBrain.",
+      "body": "Anza na dokumentasi ya bidhaa kwa usakinishaji, usanidi na utatuzi. Ukihitaji msaada zaidi, tutumie ujumbe wenye jina la bidhaa, toleo, kifaa na hatua za kuzalisha tatizo.",
+      "cta": "Wasiliana na msaada"
+    },
+    "security": {
+      "title": "Usalama",
+      "description": "Jinsi GBrain inavyoshughulikia usalama kwenye wavuti, bidhaa na utekelezaji wa AI wa eneo.",
+      "body": "Bidhaa za GBrain zimeundwa kuweka data kwenye kifaa chako. Wavuti yetu hutumia HTTPS, vichwa vya usalama na ukusanyaji mdogo wa data. AI ya eneo hufanya kazi bila huduma za lazima za wingu, na ufikiaji wowote wa mbali unapaswa kuwekwa nyuma ya VPN kwenye mtandao unaoaminika.",
+      "itemsTitle": "Mazoea yetu",
+      "items": [
+        "Utekelezaji wa kwanza-kidevaisi kwa vipengele vya AI",
+        "Chaguo-msingi la mtandao wa eneo kwa udhibiti wa vifaa",
+        "Idhini kabla ya hatua muhimu za wakala",
+        "Ukusanyaji mdogo wa data ya wavuti bila wafuatiliaji wa matangazo"
+      ],
+      "cta": "Soma sera ya faragha"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# Robots.txt for GBrain Technologies
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://gbrain.tech/sitemap.xml
+
+# Disallow admin and API routes
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /*.json$
+
+# Crawl-delay for polite crawling
+Crawl-delay: 10

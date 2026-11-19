@@ -1,0 +1,729 @@
+{
+  "common": {
+    "nav": {
+      "products": "Products",
+      "solutions": "Solutions",
+      "about": "About",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "skipToContent": "Skip to main content",
+    "mainNavigation": "Main navigation",
+    "selectLanguage": "Select language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "theme": {
+      "light": "Light mode",
+      "dark": "Dark mode"
+    },
+    "footer": {
+      "tagline": "Practical software, powered by on-device AI — built in Tanzania, for Africa and the world.",
+      "products": {
+        "title": "Products",
+        "media": "GBrain Media Player",
+        "sms": "GBrain SMS + AudioLink",
+        "phonelink": "PhoneLink",
+        "neural": "GBrain Neural"
+      },
+      "company": {
+        "title": "Company",
+        "about": "About Us",
+        "blog": "Blog",
+        "careers": "Careers",
+        "contact": "Contact"
+      },
+      "resources": {
+        "title": "Resources",
+        "docs": "Documentation",
+        "blog": "Blog",
+        "community": "Community",
+        "support": "Support"
+      },
+      "legal": {
+        "title": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "cookies": "Cookie Policy",
+        "security": "Security"
+      },
+      "copyright": "GBrain Technologies Company Limited. All rights reserved.",
+      "address": "Dar es Salaam, Tanzania",
+      "phone": "+255 XXX XXX XXX"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Home",
+      "description": "GBrain Technologies builds practical software powered by on-device AI. Products: GBrain Media Player, GBrain SMS + AudioLink, PhoneLink, GBrain Neural System.",
+      "ogTitle": "GBrain Technologies — Practical Software, Powered by On-Device AI",
+      "ogDescription": "Building practical software powered by on-device AI. Local-first, privacy-first, works offline."
+    },
+    "hero": {
+      "badge": "New: GBrain Neural System v0.1 — Phases 1-12 Complete",
+      "headline": "Practical software, powered by on-device AI",
+      "subheadline": "Built in Tanzania, for Africa and the world. Local-first, privacy-first, works offline. Four products, one mission: software that respects your data and works everywhere.",
+      "cta": {
+        "primary": "Explore Products",
+        "secondary": "Get in Touch"
+      },
+      "trust": {
+        "localFirst": "Local-first AI",
+        "offlineReady": "Works offline",
+        "africaBuilt": "Built in Africa",
+        "openSource": "Open source"
+      },
+      "demo": {
+        "caption": "Runs entirely on your device",
+        "live": "Live",
+        "running": "Running locally",
+        "offline": "No internet required"
+      }
+    },
+    "trust": {
+      "items": {
+        "award": "Award Winner",
+        "awardValue": "3",
+        "users": "Active Users",
+        "usersValue": "10K+",
+        "countries": "Countries",
+        "countriesValue": "45+",
+        "rating": "App Store Rating",
+        "ratingValue": "4.8★",
+        "privacy": "Privacy First",
+        "privacyValue": "100%",
+        "platforms": "Platforms",
+        "platformsValue": "4"
+      }
+    },
+    "products": {
+      "title": "Our Products",
+      "subtitle": "Four specialized tools, unified by a philosophy: local-first, privacy-respecting, works offline.",
+      "viewDetails": "View details",
+      "descriptions": {
+        "media": "Offline-first music and video player for Android. Scan local media, build playlists and enjoy persistent playback without the cloud.",
+        "sms": "AI-powered SMS assistant with a local Ollama brain and an acoustic voice bridge powered by Whisper and Piper.",
+        "phonelink": "Wireless Android remote management from a Linux desktop. Mirror the screen, transfer files and control devices on your LAN.",
+        "neural": "Modular AI execution platform with the MrX coding agent, task engines, device automation and integrated subsystems."
+      }
+    },
+    "why": {
+      "badge": "Why Choose GBrain",
+      "title": "Different by design",
+      "subtitle": "We don't just add AI as a feature. We build software where on-device intelligence is the foundation.",
+      "features": {
+        "localFirst": {
+          "title": "Local-first AI",
+          "desc": "Ollama, Whisper, and Piper run on your device. No mandatory cloud, no data leaving your machine."
+        },
+        "privacy": {
+          "title": "Privacy by default",
+          "desc": "Your conversations, media, and automation data stay yours. No telemetry, no tracking, no accounts required."
+        },
+        "offline": {
+          "title": "Works offline",
+          "desc": "Full functionality without internet. AI replies, media playback, device control — all local."
+        },
+        "fullStack": {
+          "title": "Full-stack in-house",
+          "desc": "Mobile, desktop, backend, AI/ML, and hardware-adjacent automation — all built by our team."
+        },
+        "africa": {
+          "title": "Built in Tanzania",
+          "desc": "Designed for African contexts: intermittent connectivity, multilingual users, cost-sensitive data."
+        },
+        "open": {
+          "title": "Open & extensible",
+          "desc": "MIT-licensed core platforms. Provider-neutral AI contract — swap Ollama for any compatible brain."
+        }
+      }
+    },
+    "stats": {
+      "products": "Products shipped",
+      "phases": "Neural phases complete",
+      "offline": "Offline capable",
+      "scalable": "Infinitely scalable"
+    },
+    "testimonials": {
+      "title": "Trusted by developers and users",
+      "subtitle": "Real feedback from people using GBrain products daily.",
+      "1": {
+        "quote": "GBrain Media Player replaced three apps on my phone. It just works — offline, fast, beautiful.",
+        "author": "Amina K.",
+        "role": "Mobile Developer",
+        "company": "Andela"
+      },
+      "2": {
+        "quote": "The SMS bot runs on my home server. Replies feel human, works during power cuts. Brilliant.",
+        "author": "James M.",
+        "role": "Systems Engineer",
+        "company": "Twiga Foods"
+      },
+      "3": {
+        "quote": "PhoneLink lets me manage my test devices from my laptop. No USB cables, no ADB headaches.",
+        "author": "Sarah L.",
+        "role": "QA Lead",
+        "company": "Kobo360"
+      }
+    },
+    "newsletter": {
+      "title": "Stay updated",
+      "subtitle": "Get product updates, engineering notes, and release notes. No spam, unsubscribe anytime.",
+      "placeholder": "your@email.com",
+      "button": "Subscribe",
+      "loading": "Subscribing...",
+      "success": "Subscribed!",
+      "privacy": "We respect your privacy. See our Privacy Policy.",
+      "toast": {
+        "success": "Thanks for subscribing! Check your inbox for confirmation.",
+        "error": "Something went wrong. Please try again."
+      }
+    }
+  },
+  "product": {
+    "hero": {
+      "getOnPlay": "Get on Google Play",
+      "downloadApk": "Download APK",
+      "viewSource": "View Source",
+      "previewTitle": "Interface preview",
+      "previewSubtitle": "Explore the product screens below.",
+      "viewScreenshots": "View screenshots"
+    },
+    "features": {
+      "title": "Features",
+      "subtitle": "Built for real-world use, with attention to every detail."
+    },
+    "screenshots": {
+      "title": "Screenshots",
+      "subtitle": "See the product in action.",
+      "placeholderNote": "Interface previews shown here are illustrative."
+    },
+    "download": {
+      "title": "Download & Requirements",
+      "subtitle": "Get started in minutes. Check the latest guides for each release.",
+      "requestAccess": "Request access",
+      "downloads": {
+        "title": "Available Downloads"
+      },
+      "checksums": {
+        "title": "Verify Checksums"
+      },
+      "requirements": {
+        "title": "System Requirements",
+        "note": "Check GitHub Releases for latest versions and detailed installation guides."
+      }
+    },
+    "docs": {
+      "title": "Documentation",
+      "subtitle": "Comprehensive guides, API references, and tutorials.",
+      "readMore": "Read more",
+      "viewAllDocs": "View all documentation"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Quick answers to common questions."
+    },
+    "changelog": {
+      "title": "Changelog",
+      "subtitle": "See what's new in each release.",
+      "viewOnGitHub": "View on GitHub"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About Us",
+      "description": "Learn about GBrain Technologies — our mission, values, team, and story. Building practical software powered by on-device AI in Tanzania."
+    },
+    "hero": {
+      "badge": "Built in Tanzania, for Africa and the world",
+      "title": "About GBrain Technologies",
+      "subtitle": "We build practical software powered by on-device AI. Local-first, privacy-first, works offline. Four products, one mission.",
+      "team": "4 team members",
+      "awards": "3 awards",
+      "rating": "4.8★ rating"
+    },
+    "mission": {
+      "title": "Our Mission & Vision",
+      "subtitle": "Why we exist and where we're going.",
+      "vision": "Vision",
+      "visionDesc": "A world where every person in Africa has access to powerful, private, offline-capable software that works on their terms — not a cloud provider's.",
+      "mission": "Mission",
+      "missionDesc": "Build practical software powered by on-device AI that respects user privacy, works offline, and solves real problems for African users and beyond."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The principles that guide every decision.",
+      "privacy": {
+        "title": "Privacy First",
+        "desc": "User data belongs to users. No tracking, no selling, no mandatory accounts."
+      },
+      "offline": {
+        "title": "Offline by Default",
+        "desc": "Software should work everywhere — on a bus, in a village, during a power cut."
+      },
+      "africa": {
+        "title": "Built for Africa",
+        "desc": "Designed for African realities: cost-sensitive data, multilingual users, intermittent connectivity."
+      },
+      "open": {
+        "title": "Open & Extensible",
+        "desc": "MIT-licensed cores. Provider-neutral AI. Swap components, not philosophies."
+      },
+      "practical": {
+        "title": "Practical Over Hype",
+        "desc": "We build tools that solve problems, not demos that impress investors."
+      },
+      "care": {
+        "title": "Care for Users",
+        "desc": "Every edge case matters. Every bug is a broken promise."
+      }
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "subtitle": "From idea to shipped products.",
+      "2024": {
+        "title": "Founded",
+        "desc": "GBrain Technologies Company Limited registered in Tanzania. First product: GBrain Media Player."
+      },
+      "2025": {
+        "title": "Expansion",
+        "desc": "GBrain SMS + AudioLink launched. PhoneLink v1.0 released. Team grows to 4."
+      },
+      "2026": {
+        "title": "Platform",
+        "desc": "GBrain Neural System Phases 1-12 complete. MrX, desktop/browser control, subsystems unified."
+      }
+    },
+    "team": {
+      "title": "The Team",
+      "subtitle": "Small team, big impact.",
+      "careers": {
+        "title": "Join Us",
+        "subtitle": "We're always looking for builders who care about privacy, offline-first, and African users.",
+        "cta": "View Open Roles"
+      }
+    },
+    "careers": {
+      "title": "Careers",
+      "subtitle": "Want to build practical software that matters? We're hiring.",
+      "cta": "View Open Positions"
+    }
+  },
+  "blog": {
+    "meta": {
+      "title": "Blog",
+      "description": "Engineering notes, release announcements, and perspectives from the GBrain team. Building practical software powered by on-device AI."
+    },
+    "hero": {
+      "title": "GBrain Blog",
+      "subtitle": "Engineering notes, release notes, and perspectives from the team building practical on-device AI software."
+    },
+    "readMore": "Read more",
+    "loadMore": "Load more posts",
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Get new posts delivered to your inbox. No spam, unsubscribe anytime.",
+      "placeholder": "your@email.com",
+      "button": "Subscribe"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact Us",
+      "description": "Get in touch with GBrain Technologies. We'd love to hear from you — whether it's a question, feedback, or business inquiry."
+    },
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "Have questions? Want to partner? Need support? We're here to help."
+    },
+    "form": {
+      "title": "Send us a message",
+      "subtitle": "We typically respond within 24 hours.",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What's this about?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "sent": "Sent!",
+      "successMessage": "Thanks for reaching out! We'll get back to you soon.",
+      "errorMessage": "Something went wrong. Please try again or email us directly."
+    },
+    "info": {
+      "title": "Other ways to reach us",
+      "email": { "title": "Email", "value": "hello@gbrain.tech" },
+      "address": { "title": "Address", "value": "Dar es Salaam, Tanzania" },
+      "phone": { "title": "Phone", "value": "+255 XXX XXX XXX" },
+      "whatsapp": { "title": "WhatsApp", "value": "WhatsApp Business" },
+      "business": {
+        "title": "Business Inquiries",
+        "desc": "Partnerships, licensing, enterprise sales, or custom development.",
+        "cta": "Start a conversation"
+      }
+    },
+    "toast": {
+      "success": "Message sent! We'll get back to you soon.",
+      "error": "Failed to send. Please try again."
+    }
+  },
+  "solutions": {
+    "meta": {
+      "title": "Solutions",
+      "description": "Discover how GBrain products solve real problems — personal productivity, business communications, developer tools, education, automation, and media."
+    },
+    "hero": {
+      "title": "Solutions by Use Case",
+      "subtitle": "Four products, infinite applications. Find the right tool for your needs."
+    },
+    "productsIncluded": "Products included",
+    "personal": {
+      "title": "Personal Productivity",
+      "desc": "Manage your media, messages, and devices — all offline, all private.",
+      "features": [
+        "Offline music & video library",
+        "AI-powered SMS replies",
+        "Voice calls without cloud",
+        "No tracking, no ads"
+      ],
+      "cta": "Explore for personal use"
+    },
+    "business": {
+      "title": "Business Communications",
+      "desc": "Automate customer SMS, manage team devices, integrate with workflows.",
+      "features": [
+        "Scheduled & auto SMS replies",
+        "Remote device management",
+        "API & webhook integrations",
+        "On-premise deployment"
+      ],
+      "cta": "Discuss business needs"
+    },
+    "developer": {
+      "title": "Developer Tools",
+      "desc": "AI coding agent, device automation, browser control — all scriptable.",
+      "features": [
+        "MrX autonomous coding",
+        "Desktop & browser automation",
+        "REST API + webhooks",
+        "Open platform, MIT licensed"
+      ],
+      "cta": "Start building"
+    },
+    "education": {
+      "title": "Education & Research",
+      "desc": "Offline media for classrooms, AI assistants for learning, device labs.",
+      "features": [
+        "Works without internet",
+        "Local AI for privacy",
+        "Multi-device management",
+        "Cost-effective deployment"
+      ],
+      "cta": "Learn for education"
+    },
+    "automation": {
+      "title": "Automation & IoT",
+      "desc": "Control devices, scrape browsers, run workflows — all from one platform.",
+      "features": [
+        "Desktop & browser control",
+        "Scheduled tasks & triggers",
+        "GitHub & webhook integrations",
+        "Local execution, no cloud"
+      ],
+      "cta": "Automate workflows"
+    },
+    "media": {
+      "title": "Media & Entertainment",
+      "desc": "Your personal media center — organized, beautiful, completely offline.",
+      "features": [
+        "Music & video library",
+        "Playlists & favorites",
+        "Themes & customization",
+        "Zero cloud dependencies"
+      ],
+      "cta": "Try media player"
+    },
+    "custom": {
+      "title": "Need a Custom Solution?",
+      "subtitle": "We build tailored software for organizations with unique requirements. On-premise, offline-first, privacy-respecting.",
+      "cta": "Discuss custom project"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "meta": {
+        "title": "Privacy Policy",
+        "description": "GBrain Technologies Privacy Policy — how we collect, use, and protect your data. Local-first, privacy-respecting software."
+      },
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated:",
+      "sections": {
+        "intro": {
+          "title": "Introduction",
+          "content": "GBrain Technologies Company Limited (\"GBrain\", \"we\", \"us\", \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website, products, and services."
+        },
+        "data": {
+          "title": "Data We Collect",
+          "content": "We collect minimal data necessary to provide our services:",
+          "items": [
+            "Account information (if you create one): name, email",
+            "Contact form submissions: name, email, message content",
+            "Newsletter subscriptions: email address",
+            "Website analytics: anonymous usage data (via Plausible/Fathom, no cookies)",
+            "Error logs: technical data for debugging (via Sentry, no PII)",
+            "Product usage: only if you opt-in; all product data stays on your device"
+          ]
+        },
+        "usage": {
+          "title": "How We Use Your Data",
+          "content": "We use your data only for:",
+          "items": [
+            "Responding to your inquiries and support requests",
+            "Sending newsletter updates (only with consent)",
+            "Improving our website and products",
+            "Security and fraud prevention",
+            "Legal compliance"
+          ]
+        },
+        "sharing": {
+          "title": "Data Sharing",
+          "content": "We do not sell your data. We may share data only in these cases:",
+          "items": [
+            "With your explicit consent",
+            "With service providers (Resend for email, Vercel for hosting, Sentry for errors) under strict DPAs",
+            "When required by law or to protect our rights",
+            "In aggregate, anonymized form for analytics"
+          ]
+        },
+        "cookies": {
+          "title": "Cookies & Tracking",
+          "content": "Our website uses minimal cookies:",
+          "items": [
+            "Essential: session management, CSRF protection",
+            "Preferences: theme (light/dark), locale",
+            "Analytics: Plausible/Fathom (privacy-friendly, no personal data)",
+            "No advertising cookies, no third-party tracking cookies"
+          ]
+        },
+        "rights": {
+          "title": "Your Rights",
+          "content": "Under GDPR, Tanzania PDPA, and other laws, you have the right to:",
+          "items": [
+            "Access your personal data",
+            "Rectify inaccurate data",
+            "Erase your data (\"right to be forgotten\")",
+            "Restrict or object to processing",
+            "Data portability",
+            "Withdraw consent at any time"
+          ]
+        },
+        "security": {
+          "title": "Data Security",
+          "content": "We implement appropriate technical and organizational measures: TLS encryption, secure headers, access controls, regular security reviews. However, no internet transmission is 100% secure."
+        },
+        "changes": {
+          "title": "Policy Changes",
+          "content": "We may update this policy. Material changes will be notified via email or website banner. Continued use constitutes acceptance."
+        },
+        "contact": {
+          "title": "Contact Us",
+          "content": "Questions about this policy? Contact our Data Protection Officer at privacy@gbrain.tech or write to GBrain Technologies Company Limited, Dar es Salaam, Tanzania."
+        }
+      }
+    },
+    "terms": {
+      "meta": {
+        "title": "Terms of Service",
+        "description": "GBrain Technologies Terms of Service — rules and guidelines for using our website, products, and services."
+      },
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated:",
+      "sections": {
+        "acceptance": {
+          "title": "Acceptance of Terms",
+          "content": "By accessing or using our website, products, or services, you agree to be bound by these Terms. If you disagree, do not use our services."
+        },
+        "use": {
+          "title": "Permitted Use",
+          "content": "You may use our services for lawful purposes only. You agree not to:",
+          "items": [
+            "Violate any applicable law or regulation",
+            "Infringe intellectual property rights",
+            "Transmit malware, spam, or harmful code",
+            "Attempt unauthorized access to our systems",
+            "Interfere with other users' enjoyment",
+            "Use our services for competitive analysis without permission"
+          ]
+        },
+        "accounts": {
+          "title": "Accounts",
+          "content": "Some services may require account creation. You are responsible for maintaining credential confidentiality and all activity under your account."
+        },
+        "ip": {
+          "title": "Intellectual Property",
+          "content": "All content, trademarks, and software on our platform are owned by GBrain Technologies or licensed to us. You may not copy, modify, or distribute without permission.",
+          "items": [
+            "GBrain, GBrain Media, GBrain SMS, AudioLink, PhoneLink, GBrain Neural, MrX are our trademarks",
+            "Open-source components retain their original licenses (MIT, Apache-2.0, etc.)",
+            "Your feedback and suggestions become our property"
+          ]
+        },
+        "disclaimer": {
+          "title": "Disclaimer of Warranties",
+          "content": "Our services are provided \"as is\" and \"as available\" without warranties of any kind. We do not warrant:",
+          "items": [
+            "Uninterrupted or error-free operation",
+            "Accuracy or completeness of content",
+            "Correction of all defects",
+            "Freedom from viruses or harmful components"
+          ]
+        },
+        "liability": {
+          "title": "Limitation of Liability",
+          "content": "To the maximum extent permitted by law, GBrain Technologies shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or loss of profits, data, or business opportunities."
+        },
+        "termination": {
+          "title": "Termination",
+          "content": "We may suspend or terminate your access at any time for violation of these Terms. You may stop using our services at any time."
+        },
+        "law": {
+          "title": "Governing Law",
+          "content": "These Terms are governed by the laws of Tanzania. Disputes shall be resolved in the courts of Dar es Salaam."
+        },
+        "changes": {
+          "title": "Changes to Terms",
+          "content": "We may modify these Terms. Material changes will be posted with a revised date. Continued use constitutes acceptance."
+        },
+        "contact": {
+          "title": "Contact Us",
+          "content": "Questions about these Terms? Contact us at legal@gbrain.tech."
+        }
+      }
+    },
+    "cookies": {
+      "meta": {
+        "title": "Cookie Policy",
+        "description": "GBrain Technologies Cookie Policy — what cookies we use, why, and how to manage them."
+      },
+      "title": "Cookie Policy",
+      "lastUpdated": "Last updated:",
+      "sections": {
+        "what": {
+          "title": "What Are Cookies?",
+          "content": "Cookies are small text files stored on your device when you visit a website. They help the site function properly and provide analytics."
+        },
+        "types": {
+          "title": "Types of Cookies We Use",
+          "content": "We use the following categories:",
+          "items": [
+            "Essential: Required for site functionality (session, CSRF, preferences)",
+            "Analytics: Plausible/Fathom (anonymous, privacy-first, no personal data)",
+            "Preferences: Theme (light/dark), language locale",
+            "No marketing, advertising, or third-party tracking cookies"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Cookies",
+          "content": "Cookies help us:",
+          "items": [
+            "Remember your theme and language preferences",
+            "Maintain secure sessions",
+            "Understand anonymous usage patterns to improve the site",
+            "Prevent cross-site request forgery"
+          ]
+        },
+        "thirdParty": {
+          "title": "Third-Party Cookies",
+          "content": "We do not set third-party cookies directly. Our analytics providers (Plausible/Fathom) may set first-party cookies on our domain for anonymous measurement.",
+          "items": [
+            "Plausible: anonymous page view tracking",
+            "Fathom: privacy-first analytics",
+            "Vercel: deployment analytics (if enabled)",
+            "No Google Analytics, Facebook Pixel, or ad tracking"
+          ]
+        },
+        "consent": {
+          "title": "Consent",
+          "content": "Essential cookies are set automatically. Analytics cookies require your consent via our cookie banner. You can withdraw consent anytime.",
+          "items": [
+            "Cookie banner appears on first visit",
+            "Granular control: accept all, reject analytics, or customize",
+            "Preferences saved for 1 year",
+            "Easy withdrawal via cookie settings link in footer"
+          ]
+        },
+        "manage": {
+          "title": "Managing Cookies",
+          "content": "You can control cookies through:",
+          "items": [
+            "Browser settings: block, delete, or alert for cookies",
+            "Our cookie settings link (footer): change preferences anytime",
+            "Private/incognito mode: cookies deleted on close",
+            "Note: blocking essential cookies may break site functionality"
+          ]
+        },
+        "changes": {
+          "title": "Policy Changes",
+          "content": "We may update this policy. Changes will be posted with a revised date. Continued use constitutes acceptance."
+        },
+        "contact": {
+          "title": "Contact Us",
+          "content": "Questions about cookies? Contact us at privacy@gbrain.tech."
+        }
+      }
+    }
+  },
+  "docs": {
+    "meta": {
+      "title": "Documentation",
+      "description": "Guides, architecture notes and CLI references for every GBrain product."
+    },
+    "title": "GBrain Documentation",
+    "subtitle": "Practical guides for installing, configuring and extending GBrain software.",
+    "allProducts": "All products",
+    "chooseProduct": "Choose a product",
+    "guides": "Guides",
+    "onThisPage": "On this page",
+    "overview": "Overview",
+    "commands": "Commands",
+    "relatedProduct": "Related product",
+    "backToDocs": "Back to documentation",
+    "notFound": "This guide does not exist."
+  },
+  "pages": {
+    "careers": {
+      "title": "Careers at GBrain",
+      "description": "Build privacy-first, offline-capable software with a small team in Tanzania.",
+      "body": "We are a small team building practical software for real conditions: intermittent connectivity, expensive data and devices people already own. We value engineers who care about privacy, craft and measurable outcomes.",
+      "rolesTitle": "What we look for",
+      "roles": [
+        "Mobile engineers (Expo / React Native)",
+        "Backend and API engineers (Python / FastAPI)",
+        "AI engineers (local models, STT/TTS)",
+        "Technical writers and product designers"
+      ],
+      "cta": "Introduce yourself"
+    },
+    "support": {
+      "title": "Support",
+      "description": "Find answers and get help with GBrain products.",
+      "body": "Start with the product documentation for installation, configuration and troubleshooting. If you still need help, send us a message with your product name, version, device and the steps to reproduce the issue.",
+      "cta": "Contact support"
+    },
+    "security": {
+      "title": "Security",
+      "description": "How GBrain approaches security across website, products and local AI execution.",
+      "body": "GBrain products are designed to keep data on your device. Our website uses HTTPS, security headers and minimal data collection. Local AI runs without mandatory cloud services, and any remote access should be placed behind a VPN on a trusted network.",
+      "itemsTitle": "Our practices",
+      "items": [
+        "Local-first execution for AI features",
+        "Trusted-LAN defaults for device control",
+        "Approval gates for consequential agent actions",
+        "Minimal website data collection and no advertising trackers"
+      ],
+      "cta": "Read the privacy policy"
+    }
+  }
+}
